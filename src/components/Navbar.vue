@@ -1,35 +1,29 @@
-<template >
+<template>
+    <!-- navbar -->
     <div class="w-full h-auto flex justify-center mt-5">
 
-        <nav class="navbar ">
-            <div class="container flex flex-wrap justify-between items-center mx-auto">
+        <nav class="navbar bg-" style="font-family: Fira Code;">
+            <div class="container  bg--200 grid grid-cols-3 mx-auto">
 
-                <routerLink to="/" class="flex items-center">
-                    <!-- <img src="../assets/imgs/logo.png" class="mr-3 h-6 sm:h-9" alt="Wilfried N'SOUKPOE Portfolio logo"> -->
+                <!-- navbar logo -->
+                <routerLink to="/" class="flex items-center bg--200">
+                    <span style="font-family: Fira Code;" class="text-white text-3xl font-bold "> <span class="bg-red-400">Wil</span>fried</span>
                 </routerLink>
 
-                <div class="bg-  justify-between items-center w-full md:flex md:w-auto">
+                <!-- navbar links -->
+                <div class="bg--300 h-full justify-between items-center w-full md:flex md:w-auto">
                     <ul
                         class="flex flex-col  mt-4  rounded-lg  md:flex-row md:space-x-10 md:mt-0 md:text-sm md:font-medium md:border-0">
-                        <li>
-                            <a href="#" class=" text-gray-500 text-xl ">Acceuil</a>
-                        </li>
-                        <li>
-                            <a href="#" class="  text-gray-500 text-xl ">About</a>
-                        </li>
-                        <li>
-                            <a href="#" class=" text-gray-500 text-xl    ">Expérience</a>
-                        </li>
-                        <li>
-                            <a href="#" class=" text-gray-500 text-xl  ">Education</a>
-                        </li>
-                        <li>
-                            <a href="#" class=" text-gray-500 text-xl  ">Contact</a>
+                        <li v-for="(item, index) in navLinks" :key="index">
+                            <routerLink :to="item.link" class=" text-gray-500 " style="font-size: 18px;"><span class="text-red-400">0{{index+1}}</span>.{{item.name}}</routerLink>
                         </li>
                     </ul>
                 </div>
 
-                <Button text="Mon CV" class="uppercase" link="/" />
+                <!-- download resume -->
+                <div class="flex justify-end">
+                    <Button text="Mon CV" class="uppercase" link="/" />
+                </div>
             </div>
         </nav>
 
@@ -39,13 +33,39 @@
 import Button from "./Button.vue"
 export default {
     components: { Button },
-    data() { }
+    data() { 
+        return  {
+            navLinks: [
+                {
+                    name: "Accueil", 
+                    link: "/"
+                }, 
+                {
+                    name: "About", 
+                    link: "/"
+                }, 
+                {
+                    name: "Expérience", 
+                    link: "/"
+                },
+                {
+                    name: "Projets", 
+                    link: "/"
+                },
+                {
+                    name: "Contact", 
+                    link: "/"
+                }
+
+            ]
+        }
+    }
 
 }
 </script>
 <style lang="css" scoped>
 .navbar {
-    width: 1320px;
+    width: 90%;
     z-index: 1;
 }
 </style>
