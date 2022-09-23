@@ -49,7 +49,7 @@
                         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-end items-center">
 
                             <div class="rounded-lg shadow-xl bg-gray-900 text-white"
-                                style="width:450px;height: 270px;background: #2C3E50; margin-left:30px; font-family:'Fira Code';     transform: scale(1.0) translate(1px, 5px) skew(6deg, -5deg);">
+                                style="width:450px;height: 270px;background: radial-gradient(#2C3E50, transparent); margin-left:30px; font-family:'Fira Code';     transform: scale(1.0) translate(1px, 5px) skew(6deg, -5deg);">
                                 <div class="border-b border-gray-800 px-8 py-3">
                                     <div class="inline-block w-3 h-3 mr-2 rounded-full bg-red-500"></div>
                                     <div class="inline-block w-3 h-3 mr-2 rounded-full bg-yellow-300"></div>
