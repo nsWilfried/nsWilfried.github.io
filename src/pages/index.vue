@@ -6,14 +6,18 @@
 
         <!-- about -->
         <About/>
+
+        <!-- experiences -->
+        <Experience/>
     </div>
 </template>
 <script>
 import client from "../backend/pocketbase"
 import Header from "@/components/Header.vue";
 import About from "@/components/About.vue";
+import Experience from "@/components/Experience.vue";
 export default {
-    components: { Header, About },
+    components: { Header, About, Experience },
     data() {
         return {
 
@@ -25,8 +29,9 @@ export default {
     }
 }
 </script>
-<style lang="css" scoped >
+<style lang="scss" >
+    @import "../assets/scss/variables"; 
 .index {
-    background-color: rgb(38, 48, 60);
+    background-color: $secondary-bg;
 }
 </style>

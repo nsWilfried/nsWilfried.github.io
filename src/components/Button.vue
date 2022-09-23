@@ -13,7 +13,8 @@ export default {
     }
 }
 </script>
-<style lang="css">
+<style lang="scss">
+    @import "../assets/scss/variables";
     /* Fill button styling */
 .fill {
   font-size: 20px;
@@ -30,7 +31,7 @@ export default {
 
 .fill::after {
   content: "";
-  background-color: #EC7063;
+  background-color: $primary-color;
   width: 100%;
   z-index: -1;
   position: absolute;
@@ -46,6 +47,6 @@ export default {
   left: 0px;
 }
 .fill:hover{
-    border-color: #EC7063;
+    border-color: $primary-color;
 }
 </style>

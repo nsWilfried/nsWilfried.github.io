@@ -1,0 +1,9 @@
+@mixin titlebar {
+    content: "";
+    display: block;
+    position: relative;
+    top: 20px;
+    width: 200px;
+    height: 1px;
+    background-color: white;
+}

@@ -15,14 +15,14 @@
                     <ul
                         class="flex flex-col  mt-4  rounded-lg  md:flex-row md:space-x-10 md:mt-0 md:text-sm md:font-medium md:border-0">
                         <li v-for="(item, index) in navLinks" :key="index">
-                            <routerLink :to="item.link" class=" text-gray-500 " style="font-size: 18px;"><span class="text-red-400">0{{index+1}}</span>.{{item.name}}</routerLink>
+                            <routerLink :to="item.link" class=" text-gray-500 " style="font-size: 16px;"><span class="text-red-400">0{{index+1}}</span>.{{item.name}}</routerLink>
                         </li>
                     </ul>
                 </div>
 
                 <!-- download resume -->
                 <div class="flex justify-end">
-                    <Button text="Mon CV" class="uppercase" link="/" />
+                    <Button text="Mon CV" class="uppercase" link="resume" />
                 </div>
             </div>
         </nav>
@@ -63,9 +63,9 @@ export default {
 
 }
 </script>
-<style lang="css" scoped>
+<style lang="scss" >
 .navbar {
     width: 90%;
-    z-index: 1;
+    z-index: 123;
 }
 </style>

@@ -9,8 +9,8 @@
             <div class="index__header flex justify-center items-center ">
 
                 <!-- particules js -->
-                <!-- <Particles id="tsparticles" :particlesInit="particlesInit" :particlesLoaded="particlesLoaded"
-                    url="../public/particlesjs-config.json" /> -->
+                <Particles id="tsparticles" :particlesInit="particlesInit" :particlesLoaded="particlesLoaded"
+                    url="../public/random2.json" />
 
                 <!-- hero section -->
                 <section>
@@ -29,8 +29,8 @@
                                 Wilfried N'SOUKPOE </h1>
                             <h1
                                 class=" mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-7xl">
-                                Full Stack Web Developer<span class="text-white">.()</span> <span
-                                    class="text-red-400">=></span></h1>
+                                Full Stack Web Developer<span class="text-white" >.( )</span> <span
+                                    class="text-red-400" style="font-variant-ligatures: common-ligatures;">=></span></h1>
 
                             <!-- description of myself -->
                             <p class="max-w-2xl mb-6  font-lightlg:mb-8 md:text-lg lg:text-xl"

@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full flex justify-center  h-screen">
+    <div class="w-full flex justify-center  h-" style="height: 500px;">
 
         <div class="about h-full grid grid-cols-2">
             <!-- <Particles
@@ -12,7 +12,7 @@
                 <div class="mr-auto place-self-center lg:col-span-7">
 
 
-                    <h1 class="text-3xl text-red-400 pb-3" style="font-family: 'Fira Code';">01.<span class="text-white">About</span> </h1>
+                    <h1 class="text-3xl text-red-400 pb-3 about__title" style="font-family: 'Fira Code';">01.<span class="text-white">About</span> </h1>
 
                     <!-- description of myself -->
                     <p class="max-w-2xl mb-6  font-lightlg:mb-8 md:text-lg"
@@ -38,10 +38,15 @@ export default {
 
 }
 </script>
-<style lang="css">
+<style lang="scss">
+    @import "../assets/scss/mixins/titlebar"; 
 .about {
-    width: 1320px;
+    width: 900px;
     ;
     /* background-color: #252734; */
+}
+.about__title::before {
+   @include titlebar; 
+   margin-left: 150px; 
 }
 </style>
