@@ -12,7 +12,7 @@
                 <div class="mr-auto place-self-center lg:col-span-7">
 
 
-                    <h1 class="text-3xl text-red-400 pb-3 about__title" style="font-family: 'Fira Code';">01.<span class="text-white">About</span> </h1>
+                    <h1 class="text-3xl text-red-400 pb-3 about__title" style="font-family: 'Fira Code';">01.<span class="text-" style=" color: #2C3E50;"> About</span> </h1>
 
                     <!-- description of myself -->
                     <p class="max-w-2xl mb-6  font-lightlg:mb-8 md:text-lg"
@@ -47,6 +47,6 @@ export default {
 }
 .about__title::before {
    @include titlebar; 
-   margin-left: 150px; 
+   margin-left: 165px; 
 }
 </style>

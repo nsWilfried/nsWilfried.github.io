@@ -22,7 +22,9 @@ export default {
   letter-spacing: 1px;
   padding: 13px 50px 13px;
   outline: 0;
-  border: 1px solid white;
+  border: 1px solid #2C3E50; //dark mode
+//   border: 1px solid white; //light mode
+
   color: white;
   cursor: pointer;
   position: relative;

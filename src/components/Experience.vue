@@ -5,7 +5,7 @@
             <!-- experience title -->
             <div class="h-auto w-full bg-green-">
                 <h1 class="text-3xl text-red-400 pb-3 experience__title" style="font-family: 'Fira Code';">02.<span
-                        class="text-white">Expérience</span> </h1>
+                        class="text-white" style=" color: #2C3E50;"> Expérience</span> </h1>
             </div>
 
             <!-- content -->
@@ -60,7 +60,7 @@ export default {
     // background-color: white;
     &__title::before {
         @include titlebar;
-        margin-left: 245px;
+        margin-left: 260px;
     }
 }
 </style>

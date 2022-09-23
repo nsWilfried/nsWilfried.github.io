@@ -9,6 +9,9 @@
 
         <!-- experiences -->
         <Experience/>
+
+        <!-- contact -->
+        <Contact/>
     </div>
 </template>
 <script>
@@ -16,8 +19,10 @@ import client from "../backend/pocketbase"
 import Header from "@/components/Header.vue";
 import About from "@/components/About.vue";
 import Experience from "@/components/Experience.vue";
+import Contact from "@/components/Contact.vue";
+
 export default {
-    components: { Header, About, Experience },
+    components: { Header, About, Experience, Contact },
     data() {
         return {
 
@@ -32,6 +37,7 @@ export default {
 <style lang="scss" >
     @import "../assets/scss/variables"; 
 .index {
-    background-color: $secondary-bg;
+    background-color: $ligth-bg;
+    font-family: "Space Mono";
 }
 </style>

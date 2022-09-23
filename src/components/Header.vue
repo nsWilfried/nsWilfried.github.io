@@ -25,11 +25,12 @@
 
                             <!-- name and position -->
                             <h1
-                                class=" text-white mb-4 text-7xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-7xl">
+                            style="color: #2C3E50; "
+                                class=" text- mb-4 text-7xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-7xl">
                                 Wilfried N'SOUKPOE </h1>
                             <h1
                                 class=" mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-7xl">
-                                Full Stack Web Developer<span class="text-white" >.( )</span> <span
+                                Full Stack Web Developer<span class="text-" style="color: #2C3E50;" >.( )</span> <span
                                     class="text-red-400" style="font-variant-ligatures: common-ligatures;">=></span></h1>
 
                             <!-- description of myself -->
@@ -47,9 +48,9 @@
 
                         <!-- image of code  -->
                         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-end items-center">
-
+                            <!-- dark mode radial-gradient(#2C3E50, transparent) -->
                             <div class="rounded-lg shadow-xl bg-gray-900 text-white"
-                                style="width:450px;height: 270px;background: radial-gradient(#2C3E50, transparent); margin-left:30px; font-family:'Fira Code';     transform: scale(1.0) translate(1px, 5px) skew(6deg, -5deg);">
+                                style="width:450px;height: 270px;background: #2C3E50; margin-left:30px; font-family:'Fira Code'; transform: scale(1.0) translate(1px, 5px) skew(6deg, -5deg);">
                                 <div class="border-b border-gray-800 px-8 py-3">
                                     <div class="inline-block w-3 h-3 mr-2 rounded-full bg-red-500"></div>
                                     <div class="inline-block w-3 h-3 mr-2 rounded-full bg-yellow-300"></div>
