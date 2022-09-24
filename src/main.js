@@ -12,7 +12,7 @@ import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 /* add icons to the library */
 library.add(fas, far, fab)
 
-const app = createApp(App)
+const app = createApp(App) 
 app.use(router)
 app.component('font-awesome-icon', FontAwesomeIcon)
 app.use(Particles)

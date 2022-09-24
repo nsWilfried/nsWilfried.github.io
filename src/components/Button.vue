@@ -1,8 +1,8 @@
 <template>
     <div>
-        <routerLink :to="link" type="button" class="fill">
+        <a :href="link" type="button" class="fill">
             {{text}}
-        </routerLink>
+        </a>
     </div>
 </template>
 <script>

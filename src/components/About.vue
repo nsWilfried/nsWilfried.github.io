@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full flex justify-center  h-" style="height: 500px;">
+    <div id="about" class="w-full flex justify-center  h-" style="height: 500px;">
 
         <div class="about h-full grid grid-cols-2">
             <!-- <Particles

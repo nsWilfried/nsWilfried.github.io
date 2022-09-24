@@ -1,6 +1,6 @@
 <template>
     <!-- experience -->
-    <div class="w-full h-screen flex justify-center">
+    <div id="experience" class="w-full h-screen flex justify-center">
         <div class="experience h-full flex flex-col  justify-center">
             <!-- experience title -->
             <div class="h-auto w-full bg-green-">

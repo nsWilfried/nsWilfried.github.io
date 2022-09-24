@@ -29,10 +29,11 @@ export default {
 }
 </script>
 <style lang="scss">
-//     body {
-//   background-color: #ddd;
-//   padding: 100px 20px 20px 20px;
-// }
+    body {
+  background-color: #ddd;
+  padding: 30px  ;
+
+}
 
 .social-buttons {
   display: flex;

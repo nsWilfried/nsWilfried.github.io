@@ -1,5 +1,6 @@
 {
   "particles": {
+    "z-index": "-1", 
     "number": {
       "value": 160,
       "density": {

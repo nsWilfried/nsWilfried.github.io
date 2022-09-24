@@ -1,16 +1,19 @@
 <template >
     <!-- // header -->
-    <div class=" w-full h-screen ">
+    <div :class="{'dark': dark==true, 'light': dark==false}" class=" w-full h-screen">
+        <!-- particles js  -->
+        <Particles id="tsparticles" :particlesInit="particlesInit" :particlesLoaded="particlesLoaded"
+                    url="../public/random.json" />
+
         <!-- navbar -->
         <Navbar />
 
 
-        <div class="absolute w-full flex justify-center items-center" style="height: 90%;">
+        <div class="dark:bg-blue-300 w-full flex justify-center items-center" style="height: 90%;">
             <div class="index__header flex justify-center items-center ">
 
                 <!-- particules js -->
-                <Particles id="tsparticles" :particlesInit="particlesInit" :particlesLoaded="particlesLoaded"
-                    url="../public/random2.json" />
+               <!-- <button @click="dark = !dark">random</button> -->
 
                 <!-- hero section -->
                 <section>
@@ -42,9 +45,10 @@
 
                             <!-- Get in touch button -->
                             <div>
-                                <Button text="Me contacter" link="/" />
+                                <Button class="uppercase" text="Me contacter" link="#contact" />
                             </div>
                         </div>
+
 
                         <!-- image of code  -->
                         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-end items-center">
@@ -99,12 +103,13 @@ const particlesInit = async (engine) => {
 }
 
 const particlesLoaded = async (container) => {
-    console.log("Particles container loaded", container);
+    console.log("les particules sont lancées")
 }
 export default {
     components: { Button, Navbar },
     data() {
         return {
+            dark: false, 
             particlesLoaded, particlesInit
         }
     }
@@ -115,7 +120,7 @@ export default {
     width: 1320px;
     color: #6c7794;
     height: 100%;
-    z-index: 31;
+    z-index: 1000;
     /* background-color: ; */
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="index w-full flex flex-col  h-auto">
+    <div class="index w-full  h-auto">
 
         <!-- header -->
         <Header />
@@ -36,6 +36,9 @@ export default {
 </script>
 <style lang="scss" >
     @import "../assets/scss/variables"; 
+html{
+    scroll-behavior: smooth;
+}
 .index {
     background-color: $ligth-bg;
     font-family: "Space Mono";
