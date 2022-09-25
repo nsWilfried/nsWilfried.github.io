@@ -1,6 +1,6 @@
 <template >
     <!-- // header -->
-    <div :class="{'dark': dark==true, 'light': dark==false}" class=" w-full h-screen">
+    <div :class="{'dark': dark==true, 'light': dark==false}" class=" w-full h-auto">
         <!-- particles js  -->
         <Particles id="tsparticles" :particlesInit="particlesInit" :particlesLoaded="particlesLoaded"
                     url="../public/random.json" />
@@ -9,7 +9,7 @@
         <Navbar />
 
 
-        <div class="dark:bg-blue-300 w-full flex justify-center items-center" style="height: 90%;">
+        <div class="dark:bg-blue-300 w-full flex justify-center items-center bg--300 h-screen" >
             <div class="index__header flex justify-center items-center ">
 
                 <!-- particules js -->

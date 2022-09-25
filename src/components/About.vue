@@ -1,5 +1,5 @@
 <template>
-    <div id="about" class="w-full flex justify-center  h-" style="height: 500px;">
+    <div id="about" class="w-full flex justify-center  h-screen items-center bg--300" >
 
         <div class="about h-full grid grid-cols-2">
             <!-- <Particles
@@ -28,7 +28,7 @@
                     </div>
                 </div>
             </div>
-            <div>je suis le second wilfried</div>
+            <div class="flex justify-center items-center">je suis le second wilfried</div>
         </div>
 
     </div>

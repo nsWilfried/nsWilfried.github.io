@@ -15,7 +15,7 @@
                     <ul
                         class="flex flex-col  mt-4  rounded-lg  md:flex-row md:space-x-10 md:mt-0 md:text-sm md:font-medium md:border-0">
                         <li v-for="(item, index) in navLinks" :key="index">
-                            <a :href="item.link" class=" text-gray- " style="font-size: 16px;color:#2C3E50; "><span class="text-red-400">0{{index+1}}</span>. {{item.name}}</a>
+                            <a :href="item.link" class=" text-gray- " style="font-size: 16px;color:#2C3E50; "><span class="text-red-400">0{{index+1}}</span>.{{item.name}}</a>
                         </li>
                     </ul>
                 </div>

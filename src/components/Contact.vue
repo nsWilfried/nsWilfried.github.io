@@ -39,7 +39,7 @@
                                     class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-400 focus:bg-white focus:ring-2 focus:ring-red-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                             </div>
                         </div>
-                        <div  class="contact__button p-2 w-full flex justify-center">
+                        <div  class="contact__button pt-6 bg--400 w-full flex justify-center">
                             <!-- boutton d'envoi de l'email -->
                             <Button text="Envoyer" class="uppercase" link="#"/>
                         </div>
