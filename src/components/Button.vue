@@ -1,6 +1,7 @@
 <template>
     <div>
-        <a :href="link" type="button" class="fill">
+        <!-- link button -->
+        <a  :href="link" type="button" class="fill">
             {{text}}
         </a>
     </div>
@@ -9,7 +10,10 @@
 export default {
     props: {
         text: String, 
-        link: String
+        link: {
+          type: String, 
+          required: false
+        },
     }
 }
 </script>
