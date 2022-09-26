@@ -15,6 +15,7 @@
     "axios": "^0.27.2",
     "particles.vue3": "^2.3.1",
     "pocketbase": "^0.7.1",
+    "swiper": "^8.4.2",
     "tsparticles": "^2.3.1",
     "vue": "^3.2.38",
     "vue-axios": "^3.4.1",

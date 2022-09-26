@@ -3,7 +3,6 @@
         <!-- liens sociaux -->
         <div class="social-buttons">
             <a href="#" class="social-buttons__button social-button social-button--github" aria-label="GitHub">
-                <i class="fab fa-github"></i>
                 <font-awesome-icon icon="fab fa-github" />
             </a>
 
@@ -54,14 +53,10 @@ $social-button-transition-time: 0.3s;
 
 $social-button-colors: (
   'mail': #0072c6,
-  'facebook': #3b5999,
   'linkedin': #0077b5,
   'github': #6e5494,
   'codepen': #212121,
-  'steam': #7da10e,
-  'snapchat': #eec900,
   'twitter': #55acee,
-  'instagram': #e4405f,
   'npmjs': #c12127,
 );
 
@@ -79,13 +74,14 @@ $social-button-colors: (
   text-align: center;
 
   &::after {
-    content: '';
+    content: 'fsdfdfsfdfs';
     position: absolute;
     top: -1px;
     left: 50%;
     display: block;
     width: 0;
     height: 0;
+    background-color: #0072c6;
     border-radius: 100%;
     transition: $social-button-transition-time;
   }

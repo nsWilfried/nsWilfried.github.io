@@ -129,8 +129,8 @@ export default {
                             name: this.values.name
                         },
                         to: {
-                            email: "contact@example.com", 
-                        name: "wilfried"
+                            email: "wacnsoukpoe@gmail.com", 
+                            name: "Wilfried N'SOUKPOE"
                         }, 
                         subject: this.values.subject, 
                         text: this.values.message

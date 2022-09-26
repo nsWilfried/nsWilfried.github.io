@@ -28,20 +28,24 @@
                     </div>
                 </div>
             </div>
-            <div class="flex justify-center items-center">je suis le second wilfried</div>
+            <div class="flex justify-center bg--300 items-center">
+                <Skills/>
+            </div>
         </div>
 
     </div>
 </template>
 <script>
+    import Skills from "./Skills.vue"
 export default {
+    components:{Skills}
 
 }
 </script>
 <style lang="scss">
     @import "../assets/scss/mixins/titlebar"; 
 .about {
-    width: 900px;
+    width: 1000px;
     ;
     /* background-color: #252734; */
 }
