@@ -1,6 +1,6 @@
 <template >
     <!-- section education -->
-    <div class="section">
+    <div id="education" class="section">
         <div class="education">
             <!-- experience title -->
             <div class="h-auto w-full bg-green-">

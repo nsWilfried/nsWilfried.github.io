@@ -1,13 +1,13 @@
 <template>
     <!-- navbar -->
-    <div class="w-full  h-auto flex justify-center mt-5 p-3">
+    <div class="w-full  h-auto flex justify-center mt-5 p-5 bg--200">
 
         <nav class="navbar bg-" style="font-family: Fira Code;">
             <div class="container  bg--200 grid grid-cols-4 mx-auto">
 
                 <!-- navbar logo -->
                 <routerLink to="/" class="flex col-span-1 items-center bg--200">
-                    <span style="font-family: Fira Code;color: #2C3E50;" class="text- text-3xl font-bold " > <span class="bg-red-400 text-white">Wil</span>fried</span>
+                    <span style="font-family:Montez;color: #2C3E50;" class="text- text-5xl font-bold " > <span class="text-red-400">Wil</span>fried</span>
                 </routerLink>
 
                 <!-- navbar links -->
@@ -54,7 +54,7 @@ export default {
                 }, 
                 {
                     name: "Projets", 
-                    link: "/"
+                    link: "#projects"
                 },
                 {
                     name: "Contact", 

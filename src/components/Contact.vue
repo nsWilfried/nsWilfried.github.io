@@ -1,7 +1,7 @@
 <template>
 
     <!-- section contact -->
-    <div id="contact" class="section contact">
+    <div id="contact" class="section  bg--500 contact">
         <section class="text-gray-600 body-font relative">
             <div class="container px-5 py-24 mx-auto">
                 <div class="flex flex-col text-center w-full mb-12">
@@ -159,7 +159,7 @@ export default {
 </script>
 <style lang="scss">
 .contact {
-
+    
     z-index:1 ;
     &__button {
         z-index: 1;

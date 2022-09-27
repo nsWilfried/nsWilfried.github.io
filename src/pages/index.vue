@@ -13,6 +13,9 @@
         <!-- education -->
         <Education />
 
+        <!-- Project -->
+        <Project/>
+
         <!-- contact -->
         <Contact/>
     </div>
@@ -24,10 +27,12 @@ import About from "@/components/About.vue";
 import Experience from "@/components/Experience.vue";
 import Contact from "@/components/Contact.vue";
 import Education from "@/components/Education.vue";
+import Project from "@/components/Project.vue";
+
 
 
 export default {
-    components: { Header, About, Experience, Contact, Education },
+    components: { Header, About, Experience, Contact, Education, Project },
     data() {
         return {
 

@@ -176,7 +176,6 @@ export default {
                     name: "Typescript"
                 }
             ], 
-            // https://avatars.githubusercontent.com/u/13810373?s=48&v=4
             frontEndFrameworks: [
                 {
                     src:"https://cdn.icon-icons.com/icons2/2107/PNG/48/file_type_angular_icon_130754.png", 
@@ -363,15 +362,15 @@ export default {
    
 }
 
-.swiper-slide:nth-child(1n) {
-    // @apply bg-red-400; 
-}
+// .swiper-slide:nth-child(1n) {
+//     // @apply bg-red-400; 
+// }
 
-.swiper-slide:nth-child(2n) {
-    // background-color: $primary-bg;
-    // color: white;
-    // transform: scale(1.0) translate(1px, 5px) skew(6deg, -5deg);
-}
+// .swiper-slide:nth-child(2n) {
+//     // background-color: $primary-bg;
+//     // color: white;
+//     // transform: scale(1.0) translate(1px, 5px) skew(6deg, -5deg);
+// }
 
 .swiper-slide:nth-child(3n) {
     // background-color: rgb(10, 184, 111);
@@ -380,7 +379,7 @@ export default {
 
 }
 
-.swiper-slide:nth-child(4n) {
-    // @apply bg-blue-400
-}
+// .swiper-slide:nth-child(4n) {
+//     // @apply bg-blue-400
+// }
 </style>
