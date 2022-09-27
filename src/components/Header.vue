@@ -115,7 +115,7 @@ export default {
     }
 }
 </script>
-<style lang="css" scoped>
+<style lang="scss" scoped>
 .index__header {
     width: 1320px;
     color: #6c7794;

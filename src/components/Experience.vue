@@ -1,10 +1,10 @@
 <template>
     <!-- experience -->
-    <div id="experience" class="w-full h-screen flex justify-center">
+    <div id="experience" class="section">
         <div class="experience h-full flex flex-col  justify-center">
             <!-- experience title -->
             <div class="h-auto w-full bg-green-">
-                <h1 class="text-3xl text-red-400 pb-3 experience__title" style="font-family: 'Fira Code';">02.<span
+                <h1 class="text-3xl text-red-400 pb-3 section__title" style="font-family: 'Fira Code';">03.<span
                         class="text-white" style=" color: #2C3E50;"> Expérience</span> </h1>
             </div>
 

@@ -12,7 +12,7 @@
                 <div class="mr-auto place-self-center lg:col-span-7">
 
 
-                    <h1 class="text-3xl text-red-400 pb-3 about__title" style="font-family: 'Fira Code';">01.<span class="text-" style=" color: #2C3E50;"> About</span> </h1>
+                    <h1 class="text-3xl text-red-400 pb-3 about__title" style="font-family: 'Fira Code';">02.<span class="text-" style=" color: #2C3E50;"> About</span> </h1>
 
                     <!-- description of myself -->
                     <p class="max-w-2xl mb-6  font-lightlg:mb-8 md:text-lg"
@@ -44,8 +44,9 @@ export default {
 </script>
 <style lang="scss">
     @import "../assets/scss/mixins/titlebar"; 
+    @import "../assets/scss/variables"; 
 .about {
-    width: 1000px;
+    width: $section-width;
     ;
     /* background-color: #252734; */
 }

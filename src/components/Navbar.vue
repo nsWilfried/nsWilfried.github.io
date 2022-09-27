@@ -49,6 +49,10 @@ export default {
                     link: "#experience"
                 },
                 {
+                    name: "Education", 
+                    link: "#education"
+                }, 
+                {
                     name: "Projets", 
                     link: "/"
                 },

@@ -10,6 +10,9 @@
         <!-- experiences -->
         <Experience/>
 
+        <!-- education -->
+        <Education />
+
         <!-- contact -->
         <Contact/>
     </div>
@@ -20,9 +23,11 @@ import Header from "@/components/Header.vue";
 import About from "@/components/About.vue";
 import Experience from "@/components/Experience.vue";
 import Contact from "@/components/Contact.vue";
+import Education from "@/components/Education.vue";
+
 
 export default {
-    components: { Header, About, Experience, Contact },
+    components: { Header, About, Experience, Contact, Education },
     data() {
         return {
 
@@ -43,4 +48,5 @@ html{
     background-color: $ligth-bg;
     font-family: "Space Mono";
 }
+
 </style>

@@ -74,7 +74,7 @@ $social-button-colors: (
   text-align: center;
 
   &::after {
-    content: 'fsdfdfsfdfs';
+    content: '';
     position: absolute;
     top: -1px;
     left: 50%;
