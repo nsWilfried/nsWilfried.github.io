@@ -1,4 +1,5 @@
 <template>
+    <!-- portfolio page -->
     <div class="index w-full  h-auto">
 
         <!-- header -->
@@ -51,7 +52,15 @@ html{
 }
 .index {
     background-color: $ligth-bg;
-    font-family: "Space Mono";
+    font-family: $primary-font;
 }
+.primary-color{
+    color:  #EC7063;
+}
+body {
+  background-color: #ddd;
+  padding: 30px  ;
+  height: auto;
 
+}
 </style>

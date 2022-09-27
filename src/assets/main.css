@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montez&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;600&family=Montez&family=Space+Mono&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,4 +7,13 @@
     background: #EC7063;
   }
 
+  .primary-font {
+    font-family: "Space Mono", "Roboto", "Arial", sans-serif;
+  }
+  .secondary-font {
+    font-family: "Fira Code", "Roboto", "Arial", sans-serif;
+  }
+  .special-font {
+    font-family: "Montez", "Roboto", "Arial", sans-serif;
+  }
  

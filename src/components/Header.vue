@@ -12,9 +12,6 @@
         <div class="dark:bg-blue-300 w-full flex justify-center items-center bg--300 h-screen" >
             <div class="index__header flex justify-center items-center ">
 
-                <!-- particules js -->
-               <!-- <button @click="dark = !dark">random</button> -->
-
                 <!-- hero section -->
                 <section>
                     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
@@ -37,7 +34,7 @@
                                     class="text-red-400" style="font-variant-ligatures: common-ligatures;">=></span></h1>
 
                             <!-- description of myself -->
-                            <p class="max-w-2xl mb-6  font-lightlg:mb-8 md:text-lg lg:text-xl"
+                            <p class="max-w-2xl mb-6 secondary-font font-lightlg:mb-8 md:text-lg lg:text-xl"
                                 style="padding-top: 20px;padding-bottom:20px;color: #5D6D7E;  ">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde consequuntur, dignissimos
                                 ut hic ab dolore recusandae, provident, aliquam similique eaque ex. Quaerat ea illum,
@@ -73,7 +70,7 @@
                                         </span>,</p>
                                     <p class="ml-6">position: <span
                                             class="text-white bg-red-400">'fullstack-developer'</span>,</p>
-                                    <p class="ml-6">website: <span class="text-yellow-300">'<a
+                                    <p class="ml-6">linkedin: <span class="text-yellow-300">'<a
                                                 href="https://nsWilfried.com" target="_blank"
                                                 class="text-yellow-300 hover:underline focus:border-none">https://nsWilfried.com</a>'</span>,
                                     </p>
@@ -120,7 +117,7 @@ export default {
     width: 1320px;
     color: #6c7794;
     height: 100%;
-    z-index: 1000;
+    z-index: 1;
     /* background-color: ; */
 }
 </style>

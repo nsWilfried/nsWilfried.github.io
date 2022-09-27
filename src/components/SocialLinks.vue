@@ -1,12 +1,12 @@
 <template>
+    <!-- liens sociaux -->
     <div>
-        <!-- liens sociaux -->
         <div class="social-buttons">
-            <a href="#" class="social-buttons__button social-button social-button--github" aria-label="GitHub">
+            <a href="https://github.com/nsWilfried" target="_blank" class="social-buttons__button social-button social-button--github" aria-label="GitHub">
                 <font-awesome-icon icon="fab fa-github" />
             </a>
 
-            <a href="#" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/wilfried-n-soukpoe-2b41a8245/" target="_blank" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
                 <!-- <i class="fab fa-linkedin-in"></i> -->
                 <font-awesome-icon icon="fab fa-linkedin-in" />
             </a>
@@ -14,10 +14,9 @@
                 <i class="fab fa-snapchat-ghost"></i>
             </a> -->
             
-            <a href="#" class="social-buttons__button social-button social-button--codepen" aria-label="CodePen">
-                <!-- <i class="fab fa-codepen"></i> -->
+            <!-- <a href="#" class="social-buttons__button social-button social-button--codepen" aria-label="CodePen">
                 <font-awesome-icon icon="fab fa-codepen" />
-            </a>
+            </a> -->
         </div>
 
     </div>
@@ -28,11 +27,7 @@ export default {
 }
 </script>
 <style lang="scss">
-    body {
-  background-color: #ddd;
-  padding: 30px  ;
 
-}
 
 .social-buttons {
   display: flex;

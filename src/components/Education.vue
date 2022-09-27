@@ -4,7 +4,7 @@
         <div class="education">
             <!-- experience title -->
             <div class="h-auto w-full bg-green-">
-                <h1 class="section__title" style="font-family: 'Fira Code';">04.<span class="text-white"
+                <h1 class="section__title primary-font font-bold" >04.<span class="text-white"
                         style=" color: #2C3E50;"> Education</span> </h1>
             </div>
 
@@ -14,15 +14,15 @@
                     <div class="-my-8 divide-y-2 divide-gray-100">
                         <div class="py-8 flex flex-wrap md:flex-nowrap">
                             <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                                <span class="font-semibold title-font text-gray-700">Licence - Sciences Informatiques et
+                                <span class="font-medium title-font text-gray-700">Licence - Sciences Informatiques et
                                     Technologiques</span>
-                                <span class="mt-1 text-gray-500 text-sm">Novembre 2021</span>
+                                <span class="mt-1 text-gray-500 text-sm secondary-font pt-3">Novembre 2021</span>
                             </div>
                             <div class="md:flex-grow">
                                 <a href="https://ucao.org"
                                     class="text-2xl font-medium underline title-font mb-2 text-red-400 ">@Université
                                     Catholique de l'Afrique de l'Ouest</a>
-                                <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel
+                                <p class="leading-relaxed secondary-font pt-5">Glossier echo park pug, church-key sartorial biodiesel
                                     vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag
                                     selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland
                                     craft beer.</p>

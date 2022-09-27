@@ -6,11 +6,11 @@
             <div class="swiper__content">
                 <div class="swiper__title pb-2 flex w-full  items-center">
                     <img src="https://img.icons8.com/external-tal-revivo-tritone-tal-revivo/32/000000/external-double-chevron-arrow-insignia-rank-representation-basic-tritone-tal-revivo.png"/>
-                    <span class="pl-2">Front-End Skills</span>
+                    <span class="pl-2 primary-font font-bold">Front-End Skills</span>
                 </div>
 
                 <div >
-                    <div class="w-full bg--200 pb-2 ">
+                    <div class="w-full bg--200 pb-2 secondary-font">
                         <span class="font- text--300">Langages: </span>
                         <div>
                             <!-- Front-End languages-->
@@ -43,11 +43,11 @@
             <div class="swiper__content">
                 <div class="swiper__title pb-2 flex w-full  items-center">
                     <img src="https://img.icons8.com/external-tal-revivo-tritone-tal-revivo/32/000000/external-double-chevron-arrow-insignia-rank-representation-basic-tritone-tal-revivo.png"/>
-                    <span class="pl-2">Back-End Skills</span>
+                    <span class="pl-2 primary-font font-bold">Back-End Skills</span>
                 </div>
 
                 <div >
-                    <div class="w-full bg--200 pb-2 ">
+                    <div class="w-full bg--200 pb-2 secondary-font ">
                         <span class="font- text--300">Langages: </span>
                         <div>
                             <!-- Back-End languages-->
@@ -91,11 +91,11 @@
             <div class="swiper__content">
                 <div class="swiper__title pb-2 flex w-full  items-center">
                     <img src="https://img.icons8.com/external-tal-revivo-tritone-tal-revivo/32/000000/external-double-chevron-arrow-insignia-rank-representation-basic-tritone-tal-revivo.png"/>
-                    <span class="pl-2">Autres Skills</span>
+                    <span class="pl-2 primary-font font-bold">Autres Skills</span>
                 </div>
 
                 <div >
-                    <div class="w-full bg--200 pb-2 ">
+                    <div class="w-full bg--200 pb-2 secondary-font">
                         <span class="font- text--300">Outils: </span>
                         <div>
                             <!-- Back-End languages-->
@@ -214,7 +214,7 @@ export default {
                 },
                 {
                     src: "https://img.icons8.com/color/48/000000/mysql-logo.png", 
-                    name: "Mysql"
+                    name: "SQL"
 
                 },
             ], 

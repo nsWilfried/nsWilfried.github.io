@@ -10,7 +10,12 @@ const routes = [
     }, {
         path: "/resume", 
         component: ResumeViewer
-    }
+    }, 
+    {
+        path: '/:pathMatch(.*)*', name: 'NotFound', redirect: to => {
+            return '/'
+        }
+    },
 ]
 const router = new createRouter({
     history: createWebHistory(), 

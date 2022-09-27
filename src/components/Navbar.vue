@@ -7,7 +7,7 @@
 
                 <!-- navbar logo -->
                 <routerLink to="/" class="flex col-span-1 items-center bg--200">
-                    <span style="font-family:Montez;color: #2C3E50;" class="text- text-5xl font-bold " > <span class="text-red-400">Wil</span>fried</span>
+                    <span style="color: #2C3E50;" class="text- text-5xl font-bold special-font" > <span class="text-red-400 underline">Wil</span>fried</span>
                 </routerLink>
 
                 <!-- navbar links -->
@@ -15,7 +15,7 @@
                     <ul
                         class="flex flex-col  mt-4  rounded-lg  md:flex-row md:space-x-10 md:mt-0 md:text-sm md:font-medium md:border-0">
                         <li v-for="(item, index) in navLinks" :key="index">
-                            <a :href="item.link" class=" text-gray- " style="font-size: 16px;color:#2C3E50; "><span class="text-red-400">0{{index+1}}</span>.{{item.name}}</a>
+                            <a :href="item.link" class=" text-gray- secondary-font " style="font-size: 16px;color:#2C3E50; "><span class="text-red-400">0{{index+1}}</span>.{{item.name}}</a>
                         </li>
                     </ul>
                 </div>

@@ -2,24 +2,19 @@
     <div id="about" class="w-full flex justify-center  h-screen items-center bg--300" >
 
         <div class="about h-full grid grid-cols-2">
-            <!-- <Particles
-                id="tsparticles"
-                :particlesInit="particlesInit"
-                :particlesLoaded="particlesLoaded"
-                url="../public/random.json"
-        /> -->
+        
             <div class="flex justify-center items-center">
                 <div class="mr-auto place-self-center lg:col-span-7">
 
 
-                    <h1 class="text-3xl text-red-400 pb-3 about__title" style="font-family: 'Fira Code';">02.<span class="text-" style=" color: #2C3E50;"> About</span> </h1>
+                    <h1 class="text-3xl text-red-400 pb-3 about__title primary-font font-bold" >02.<span class="text-" style=" color: #2C3E50;"> About</span> </h1>
 
                     <!-- description of myself -->
-                    <p class="max-w-2xl mb-6  font-lightlg:mb-8 md:text-lg"
+                    <p class="max-w-2xl mb-6 secondary-font font-lightlg:mb-8 md:text-lg"
                         style="padding-top: 20px;padding-bottom:20px;color: #5D6D7E;  ">
                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatem error rem vero repellendus enim velit veniam omnis numquam itaque reiciendis excepturi necessitatibus, similique doloribus inventore dolores vel voluptates porro?</p>
 
-                       <p class="max-w-2xl mb-6  font-lightlg:mb-8 md:text-lg"
+                       <p class="max-w-2xl mb-6 secondary-font font-lightlg:mb-8 md:text-lg"
                         style="padding-top: 20px;padding-bottom:20px;color: #5D6D7E;  ">
                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatem error rem vero repellendus enim velit veniam omnis numquam itaque reiciendis excepturi necessitatibus, similique doloribus inventore dolores vel voluptates porro?</p>
                     <!-- Get in touch button -->
