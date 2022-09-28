@@ -63,4 +63,14 @@ body {
   height: auto;
 
 }
+
+// laptop
+@media only screen and (min-width: 1024px) and (max-width: 1320px){
+    body {
+  background-color: white;
+  padding: 0px   ;
+  height: auto;
+
+}
+}
 </style>

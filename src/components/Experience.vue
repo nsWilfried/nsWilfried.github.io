@@ -60,7 +60,7 @@ export default {
 @import "../assets/scss/mixins/titlebar";
 
 .experience {
-    width: $primary-width ;
+    width: $secondary-width ;
 
     // background-color: white;
     &__title::before {

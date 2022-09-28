@@ -113,11 +113,14 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+    @import "../assets/scss/variables"; 
 .index__header {
-    width: 1320px;
+    width: $secondary-width;
+    // background-color: yellow;
     color: #6c7794;
     height: 100%;
     z-index: 1;
+    // @apply bg-green-300
     /* background-color: ; */
 }
 </style>

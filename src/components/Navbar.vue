@@ -2,8 +2,8 @@
     <!-- navbar -->
     <div class="w-full  h-auto flex justify-center mt-5 p-5 bg--200">
 
-        <nav class="navbar bg-" style="font-family: Fira Code;">
-            <div class="container  bg--200 grid grid-cols-4 mx-auto">
+        <nav class="navbar lg:w-full bg-">
+            <div class="container  bg--200 grid grid-cols-6 bg--200 mx-auto">
 
                 <!-- navbar logo -->
                 <routerLink to="/" class="flex col-span-1 items-center bg--200">
@@ -11,7 +11,7 @@
                 </routerLink>
 
                 <!-- navbar links -->
-                <div class="bg--300 h-full col-span-2 justify-end items-center w-full md:flex md:w-auto">
+                <div class="bg--300 h-full col-span-4 justify-end items-center w-full md:flex md:w-auto bg--200">
                     <ul
                         class="flex flex-col  mt-4  rounded-lg  md:flex-row md:space-x-10 md:mt-0 md:text-sm md:font-medium md:border-0">
                         <li v-for="(item, index) in navLinks" :key="index">
@@ -21,7 +21,7 @@
                 </div>
 
                 <!-- download resume -->
-                <div class="flex justify-end col-span-1 items-center">
+                <div class="flex justify-end col-span-1 items-center bg--300">
                     <Button text="Mon CV" class="uppercase" link="resume" />
                 </div>
             </div>
@@ -69,7 +69,7 @@ export default {
 </script>
 <style lang="scss" >
 .navbar {
-    width: 90%;
+    // width: 90%;
     z-index: 123;
 }
 </style>

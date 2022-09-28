@@ -119,7 +119,7 @@ export default {
 }
 
 .projects {
-    width: $primary-width ;
+    width: $secondary-width;
     margin-bottom: 400px;
 
     // background-color: white;
