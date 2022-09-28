@@ -11,8 +11,8 @@
             <section 
                 class="text-gray-600 bg--300w-full projects__content h-auto flex-wrap  flex bg--800 justify-around gap-16">
 
-                <div class="transition__translate" v-for="(project, index) in projects" :key="index">
-                    <div class="max-w-sm rounded overflow-hidden shadow-sm">
+                <div class="transition__translate " v-for="(project, index) in projects" :key="index">
+                    <div class="max-w-sm rounded border-t-4 border-t-red-400  overflow-hidden shadow-sm">
                         <img class="w-full project__image" :src="'/src/assets/imgs/'+project.thumbnail"
                             :alt="project.name">
                         <div class="px-6 py-4">
@@ -69,7 +69,7 @@ export default {
                     name: "Blog",
                     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, null Maiores et perferendis eaque, exercitationem praesentium nihil.",
                     thumbnail: "blog.png",
-                    technos: ["VueJs", "AdonisJs", "NodeJs", "PostgreSQL"],
+                    technos: ["VueJs", "AdonisJs", "NodeJs", "PostgreSQL", "Tailwindcss"],
                     githubLink: "https://github.com/nsWilfried/Axole-Template",
                     liveView: ""
                 },
@@ -93,7 +93,7 @@ export default {
                     name: "Google Keep Clone",
                     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, null Maiores et perferendis eaque, exercitationem praesentium nihil.",
                     thumbnail: "google_keep_clone.png",
-                    technos: ["VueJs", "Supabase"],
+                    technos: ["VueJs", "Supabase", "Sass"],
                     githubLink: "https://github.com/nsWilfried/Google-Keep-Clone",
                     liveView: "https://ns-google-keep.netlify.app"
                 },
@@ -101,7 +101,7 @@ export default {
                     name: "Mon Portfolio",
                     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, null Maiores et perferendis eaque, exercitationem praesentium nihil.",
                     thumbnail: "portfolio.png",
-                    technos: ["VueJS", "PocketBase"],
+                    technos: ["VueJS", "PocketBase", "Tailwindcss"],
                     githubLink: "https://github.com/nsWilfried/Wilfried-Portfolio",
                     liveView: ""
                 },
