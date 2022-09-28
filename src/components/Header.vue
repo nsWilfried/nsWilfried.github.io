@@ -2,8 +2,8 @@
     <!-- // header -->
     <div :class="{'dark': dark==true, 'light': dark==false}" class=" w-full h-auto">
         <!-- particles js  -->
-        <Particles id="tsparticles" :particlesInit="particlesInit" :particlesLoaded="particlesLoaded"
-                    url="../public/random.json" />
+        <!-- <Particles id="tsparticles" :particlesInit="particlesInit" :particlesLoaded="particlesLoaded"
+                    url="../public/random.json" /> -->
 
         <!-- navbar -->
         <Navbar />
@@ -31,7 +31,7 @@
                             <h1
                                 class=" mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-7xl">
                                 Full Stack Web Developer<span class="text-" style="color: #2C3E50;" >.( )</span> <span
-                                    class="text-red-400 md:hidden sm:hidden" >=></span></h1>
+                                    class="text-red-400" >=></span></h1>
 
                             <!-- description of myself -->
                             <p class="max-w-2xl mb-6 secondary-font font-lightlg:mb-8 md:text-lg lg:text-xl"
