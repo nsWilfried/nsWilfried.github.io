@@ -21,4 +21,10 @@
     @include titlebar;
     margin-left: 260px;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 800px){
+ .section {
+  height: auto;
+ }
+}
 </style>

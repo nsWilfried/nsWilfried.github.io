@@ -8,8 +8,8 @@
             </div>
 
             <!-- content -->
-            <section style="margin-top:130px"
-                class="text-gray-600 bg--300w-full h-auto flex-wrap  flex bg--800 justify-around gap-16">
+            <section 
+                class="text-gray-600 bg--300w-full projects__content h-auto flex-wrap  flex bg--800 justify-around gap-16">
 
                 <div class="transition__translate" v-for="(project, index) in projects" :key="index">
                     <div class="max-w-sm rounded overflow-hidden shadow-sm">
@@ -124,6 +124,9 @@ export default {
 
     // background-color: white;
     z-index: 2;
+    &__content {
+        margin-top:130px
+    }
 }
 
 .project__image {
@@ -159,5 +162,16 @@ export default {
         transform: translateY(-5px);
         transition: all 0.3s;
     }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1000px){
+ .projects {
+    padding-top: $vertical-space-mobile;
+    margin-bottom: 0px;
+    &__content {
+    margin-top: 30px;
+
+    }
+ }
 }
 </style>

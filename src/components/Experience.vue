@@ -10,7 +10,7 @@
 
             <!-- content -->
             <section class="text-gray-600 body-font overflow-hidden">
-                <div class="container px-5 py-24 mx-auto">
+                <div class="container px-5 lg:py-24 mx-auto">
                     <div class="-my-8 divide-y-2 divide-gray-100">
                         <div class="py-8 flex flex-wrap md:flex-nowrap">
                             <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
@@ -67,5 +67,10 @@ export default {
         @include titlebar;
         margin-left: 260px;
     }
+}
+@media only screen and (min-width: 320px) and (max-width: 1000px){
+ .experience {
+    padding-top: $vertical-space-mobile;
+ }
 }
 </style>

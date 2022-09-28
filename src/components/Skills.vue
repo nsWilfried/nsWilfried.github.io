@@ -316,6 +316,15 @@ export default {
         @apply shadow-sm border border-red-500 w-full p-6 h-full flex flex-col gap-8 justify-center underline;
     }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 1000px){
+    .swiper {
+    // 240px 320px
+    width: 260px;
+    height: 360px;
+   
+}
+}
 .front, .back, .other{
     position: relative;
     &:hover .skill__tooltip {

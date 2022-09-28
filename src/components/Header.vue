@@ -26,12 +26,12 @@
                             <!-- name and position -->
                             <h1
                             style="color: #2C3E50; "
-                                class=" text- mb-4 text-7xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-7xl">
+                                class=" text- mb-4 header__title text-7xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-7xl">
                                 Wilfried N'SOUKPOE </h1>
                             <h1
                                 class=" mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-7xl">
                                 Full Stack Web Developer<span class="text-" style="color: #2C3E50;" >.( )</span> <span
-                                    class="text-red-400" style="font-variant-ligatures: common-ligatures;">=></span></h1>
+                                    class="text-red-400 md:hidden sm:hidden" >=></span></h1>
 
                             <!-- description of myself -->
                             <p class="max-w-2xl mb-6 secondary-font font-lightlg:mb-8 md:text-lg lg:text-xl"
@@ -120,7 +120,12 @@ export default {
     color: #6c7794;
     height: 100%;
     z-index: 1;
-    // @apply bg-green-300
+    // @apply bg-green-300; 
     /* background-color: ; */
+}
+@media only screen and (min-width: 320px) and (max-width: 1000px){
+    .header__title {
+        font-size: 3em ; 
+}
 }
 </style>

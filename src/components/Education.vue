@@ -10,11 +10,11 @@
 
             <!-- content -->
             <section class="text-gray-600 body-font overflow-hidden">
-                <div class="container px-5 py-24 mx-auto">
+                <div class="container px-5 lg:py-24 mx-auto">
                     <div class="-my-8 divide-y-2 divide-gray-100">
                         <div class="py-8 flex flex-wrap md:flex-nowrap">
-                            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                                <span class="font-medium title-font text-gray-700">Licence - Sciences Informatiques et
+                            <div class="md:w-64 md:mb-0 mb-6 education__filiere flex-shrink-0 flex flex-col flex-wrap">
+                                <span class="font-medium   text-gray-700 ">Licence - Sciences Informatiques et
                                     Technologiques</span>
                                 <span class="mt-1 text-gray-500 text-sm secondary-font pt-3">Novembre 2021</span>
                             </div>
@@ -47,5 +47,15 @@ export default {
     width: $section-width;
     background-color: white;
     z-index: 1;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1000px){
+ .education {
+    width: $secondary-width;
+    padding-top: $vertical-space-mobile;
+    &__filiere {
+        width: 100%;
+    }
+ }
 }
 </style>
