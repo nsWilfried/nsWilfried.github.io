@@ -14,14 +14,14 @@
                 <!-- navbar links -->
                 <div
                     class="bg--300 h-full  navbar__links lg:flex justify-end items-center w-full  md:w-auto bg--200">
-                    <ul
+                    <transition-group appear @before-enter="beforeEnter" @enter="enter" tag="ul" 
                         class="flex flex-col  mt-4  rounded-lg  md:flex-row md:space-x-10 md:mt-0 md:text-sm md:font-medium md:border-0">
-                        <li v-for="(item, index) in navLinks" :key="index">
+                        <li :data-index="index" v-for="(item, index) in navLinks" :key="index">
                             <a :href="item.link" class=" text-gray- secondary-font "
                                 style="font-size: 16px;color:#2C3E50; "><span
                                     class="text-red-400">0{{index+1}}</span>.{{item.name}}</a>
                         </li>
-                    </ul>
+                    </transition-group>
                 </div>
 
                 <!-- download resume -->
@@ -35,6 +35,7 @@
 </template>
 <script>
 import Button from "./Button.vue"
+import gsap from "gsap"
 export default {
     components: { Button },
     data() {
@@ -66,6 +67,21 @@ export default {
                 }
 
             ]
+        }
+    }, 
+    methods: {
+        beforeEnter(el){
+            el.style.opacity = 0
+            el.style.transform = 'translateY(-60px)'
+        }, 
+        enter(el){
+            console.log("je suis l'élement et je viens d'entrer en scène", el)
+            gsap.to(el, {
+                opacity: 1, 
+                y:0, 
+                duration: 1 , 
+                delay: el.dataset.index *0.13
+            })
         }
     }
 

@@ -13,6 +13,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/vue-fontawesome": "^3.0.1",
     "axios": "^0.27.2",
+    "gsap": "^3.11.2",
     "particles.vue3": "^2.3.1",
     "pocketbase": "^0.7.1",
     "swiper": "^8.4.2",

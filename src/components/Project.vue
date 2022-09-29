@@ -11,7 +11,8 @@
             <section 
                 class="text-gray-600 bg--300w-full projects__content h-auto flex-wrap  flex bg--800 justify-around gap-16">
 
-                <div class="transition__translate " v-for="(project, index) in projects" :key="index">
+                <transition-group appear @before-enter="beforeEnter" @enter="enter">
+                    <div class="transition__translate " v-for="(project, index) in projects" :data-index="index" :key="index">
                     <div class="max-w-sm rounded border-t-4 border-t-red-400  overflow-hidden shadow-sm">
                         <img class="w-full project__image" :src="'/src/assets/imgs/'+project.thumbnail"
                             :alt="project.name">
@@ -46,6 +47,8 @@
                         </div>
                     </div>
                 </div>
+                </transition-group>
+              
 
 
             </section>
@@ -53,6 +56,7 @@
     </div>
 </template>
 <script>
+    import gsap from "gsap"
 export default {
     data() {
         return {
@@ -106,6 +110,20 @@ export default {
                     liveView: ""
                 },
             ]
+        }
+    }, 
+    methods: {
+        beforeEnter(el){
+            el.style.opacity = 0
+            el.style.transform = 'translateY(60px)'
+        }, 
+        enter(el){
+            gsap.to(el, {
+                opacity: 1, 
+                y:0, 
+                duration: 1 , 
+                delay: el.dataset.index *0.2
+            })
         }
     }
 }
