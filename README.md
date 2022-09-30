@@ -1,29 +1,36 @@
-# wilfried_portfolio
+<h1 align="center" id="title">Portfolio</h1>
 
-This template should help get you started developing with Vue 3 in Vite.
+<p align="center"><img src="" alt="project-image"></p>
 
-## Recommended IDE Setup
+<p id="description">Il s'agit de mon portfolio personnel.</p>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<h2>🚀 Demo</h2>
 
-## Customize configuration
+[https://ns-jwt-angular-auth.netlify.app/](https://ns-jwt-angular-auth.netlify.app/)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+<h2>Project Screenshots:</h2>
 
-## Project Setup
+<img src="https://i.ibb.co/Wf67kpq/portfolio.png" alt="project-screenshot" width="400" height="400/">
 
-```sh
-npm install
-```
+  
+  
+<h2>🧐 Features</h2>
 
-### Compile and Hot-Reload for Development
+Here're some of the project's best features:
 
-```sh
-npm run dev
-```
+*   Liste des compétences
+*   Liste des projets
+*   Envoi de mails
 
-### Compile and Minify for Production
+  
+  
+<h2>💻 Built with</h2>
 
-```sh
-npm run build
-```
+Technologies used in the project:
+
+*   VueJs
+*   PocketBase
+
+<h2>🛡️ License:</h2>
+
+This project is licensed under the MIT
