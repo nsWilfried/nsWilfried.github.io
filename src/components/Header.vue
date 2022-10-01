@@ -9,7 +9,7 @@
         <Navbar />
 
 
-        <div class="dark:bg-blue-300 w-full flex justify-center items-center bg--300 h-screen" >
+        <div class="header dark:bg-blue-300 w-full flex justify-center items-center bg--300 h-screen" >
             <div class="index__header flex justify-center items-center ">
 
                 <!-- hero section -->
@@ -127,5 +127,11 @@ export default {
     .header__title {
         font-size: 3em ; 
 }
+// .header {
+//     height: auto;
+//     // background-color: red;
+//     margin-top: 30px;
+//     margin-bottom: 30px;
+// }
 }
 </style>
