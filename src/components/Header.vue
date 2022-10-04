@@ -40,7 +40,7 @@
 
                             <!-- Get in touch button -->
                             <div class="header__animation">
-                                <Button class="uppercase" text="Me contacter" link="#contact" />
+                                <Button class="uppercase" :blank="false" text="Me contacter" link="#contact" />
                             </div>
                         </div>
 

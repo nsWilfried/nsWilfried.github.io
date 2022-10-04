@@ -1,17 +1,25 @@
 <template>
     <div>
         <!-- link button -->
-        <a  :href="link" type="button" class="fill">
+        <a v-if="blank==true" :href="link" target="_blank"  class="fill">
             {{text}}
         </a>
+
+        <a v-if="blank == false " :href="link"  class="fill">
+            {{text}}
+        </a>
+        
     </div>
 </template>
 <script>
 export default {
     props: {
         text: String, 
+        blank: {
+          type: Boolean, 
+          required:true
+        }, 
         link: {
-          type: String, 
           required: false
         },
     }

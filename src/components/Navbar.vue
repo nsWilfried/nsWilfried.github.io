@@ -25,7 +25,7 @@
                 <!-- download resume -->
                
                 <div class="navbar__resume  bg--300">
-                    <Button text="Mon CV" class="uppercase" link="resume" />
+                    <Button :blank="true" text="Mon CV" class="uppercase"   link="/public/Wilfried_N'SOUKPOE.pdf" />
                 </div>
             </div>
         </nav>
@@ -48,6 +48,9 @@
                     <a v-for="(link, index) in navLinks" :key="index" class="font-medium"  :href="link.link">
                         <span > <span class="text-red-400 ">0{{index+1}}.</span> {{link.name}}</span>
                     </a>
+                    <div class="navbar__resume  bg--300">
+                    <Button text="Mon CV" blank="true" class="uppercase border-white"  link="/public/Wilfried_N'SOUKPOE.pdf" />
+                </div>
                 </Slide>
             </div>
         </nav>

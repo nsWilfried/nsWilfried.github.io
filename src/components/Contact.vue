@@ -55,7 +55,7 @@
                         </div>
                         <div class="contact__button pt-6 bg--400 w-full flex justify-center">
                             <!-- boutton d'envoi de l'email -->
-                            <Button text="Envoyer" class="uppercase" @click="sendMeEmail()" />
+                            <Button text="Envoyer" :blank="false" class="uppercase" @click="sendMeEmail()" />
                         </div>
                         <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                             <a href="mailto:wacnsoukpoe@gmail.com" class="text-red-400">wacnsoukpoe@email.com</a>
