@@ -20,35 +20,33 @@
                         <div class="mr-auto place-self-center lg:col-span-7">
 
 
-                            <h1 class="text-3xl text-red-400 uppercase pb-3" style="font-family: 'Fira Code';">Hi_ 👋 ,
+                            <h1 class="header__animation text-3xl text-red-400 uppercase pb-3" style="font-family: 'Fira Code';">Hi_ 👋 ,
                                 je suis </h1>
 
                             <!-- name and position -->
                             <h1
                             style="color: #2C3E50; "
-                                class=" text- mb-4 header__title text-7xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-7xl">
+                                class=" text- mb-4 header__title header__animation text-7xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-7xl">
                                 Wilfried N'SOUKPOE </h1>
                             <h1
-                                class=" mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-7xl">
+                                class="header__animation mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-7xl">
                                 Full Stack Web Developer<span class="text-" style="color: #2C3E50;" >.( )</span> <span
-                                    class="text-red-400" >=></span></h1>
+                                    class="text-red-400 arrow-function" >=></span></h1>
 
                             <!-- description of myself -->
-                            <p class="max-w-2xl mb-6 secondary-font font-lightlg:mb-8 md:text-lg lg:text-xl"
+                            <p class=" header__animation max-w-2xl mb-6 secondary-font font-lightlg:mb-8 md:text-lg lg:text-xl"
                                 style="padding-top: 20px;padding-bottom:20px;color: #5D6D7E;  ">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde consequuntur, dignissimos
-                                ut hic ab dolore recusandae, provident, aliquam similique eaque ex. Quaerat ea illum,
-                                reiciendis minima ipsam ad atque alias.</p>
+                                Je suis développeur web fullstack , passionné de nouvelles technologies depuis tout jeune, j'aime construire des applications web complexes qui donnent une expérience utilisateur unique.</p>
 
                             <!-- Get in touch button -->
-                            <div>
+                            <div class="header__animation">
                                 <Button class="uppercase" text="Me contacter" link="#contact" />
                             </div>
                         </div>
 
 
                         <!-- image of code  -->
-                        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-end items-center">
+                        <div class="header__animation hidden lg:mt-0 lg:col-span-5 lg:flex justify-end items-center">
                             <!-- dark mode radial-gradient(#2C3E50, transparent) -->
                             <div class="rounded-lg shadow-xl bg-gray-900 text-white"
                                 style="width:450px;height: 270px;background: #2C3E50; margin-left:30px; font-family:'Fira Code'; transform: scale(1.0) translate(1px, 5px) skew(6deg, -5deg);">
@@ -126,6 +124,9 @@ export default {
 @media only screen and (min-width: 320px) and (max-width: 1000px){
     .header__title {
         font-size: 3em ; 
+}
+.arrow-function {
+    display: none;
 }
 // .header {
 //     height: auto;

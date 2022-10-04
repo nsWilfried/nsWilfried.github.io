@@ -23,8 +23,8 @@
                     <p class="max-w-2xl mb-6 secondary-font font-lightlg:mb-8 md:text-lg"
                         style="padding-top: 20px;padding-bottom:20px;color: #5D6D7E;  ">
                         Dès lors, cette passion n'a cessé de grandir, ce qui me poussa à rentrer en cursus informatique
-                        à <span class="text-red-400 underline capitalize">@l'université</span> , à apprendre de nouvelles technologies et à réaliser des tonnes de projets
-                        personnels en parallèle qu'on peut retrouver notamment sur mon profile <span class="text-red-400 underline capitalize">@github</span> 
+                        à <a href="https://ucao.org" target="_blank" class="text-red-400 underline capitalize">@l'université</a> , à apprendre de nouvelles technologies et à réaliser des tonnes de projets
+                        personnels en parallèle de mes études, projets qu'on peut retrouver notamment sur mon profile <a target="_blank" href="https://github.com/nsWilfried/" class="text-red-400 underline capitalize">@github</a> 
                     </p>
 
                     <p class="max-w-2xl mb-6 secondary-font font-lightlg:mb-8 md:text-lg"
@@ -46,7 +46,7 @@
 <script>
 import Skills from "./Skills.vue"
 export default {
-    components: { Skills }
+    components: { Skills }, 
 
 }
 </script>

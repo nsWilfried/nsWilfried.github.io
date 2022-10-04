@@ -3,7 +3,7 @@
         <div class="projects h-full flex flex-col  justify-center">
             <!-- experience title -->
             <div class="h-auto w-full bg-green-">
-                <h1 class="section__title primary-font font-bold">05.<span class="text-white"
+                <h1 class="section__title projects__title primary-font font-bold">05.<span class="text-white"
                         style=" color: #2C3E50;">Mes Projets</span></h1>
             </div>
 
@@ -11,12 +11,11 @@
             <section 
                 class="text-gray-600 bg--300w-full projects__content h-auto flex-wrap  flex bg--800 justify-around gap-16">
 
-                <transition-group appear @before-enter="beforeEnter" @enter="enter">
-                    <div class="transition__translate " v-for="(project, index) in projects" :data-index="index" :key="index">
+                    <div class="project " v-for="(project, index) in projects" :data-index="index" :key="index">
                     <div class="max-w-sm rounded border-t-4 border-t-red-400  overflow-hidden shadow-sm">
                         <img class="w-full project__image" :src="'/src/assets/imgs/'+project.thumbnail"
                             :alt="project.name">
-                        <div class="px-6 py-4">
+                        <div  class="px-6 py-4">
                             <div class="font-bold text-xl mb-2 flex justify-between">
                                 <div>
                                     <font-awesome-icon icon="fa-solid fa-play " class="text-sm text-red-400 pr-2" />
@@ -46,8 +45,7 @@
 
                         </div>
                     </div>
-                </div>
-                </transition-group>
+            </div>
               
 
 
@@ -56,7 +54,6 @@
     </div>
 </template>
 <script>
-    import gsap from "gsap"
 export default {
     data() {
         return {
@@ -65,7 +62,7 @@ export default {
                     name: "Ecommmerce Website",
                     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, null Maiores et perferendis eaque, exercitationem praesentium nihil.",
                     thumbnail: "woocommerce.jpg",
-                    technos: ["Angular","Material",  "Firebase", "WooApi"],
+                    technos: ["Angular","Material",  "Firebase", "WooApi", "NodeJs"],
                     githubLink: "https://github.com/nsWilfried/Authority-Ecommerce",
                     liveView: ""
                 },
@@ -73,7 +70,7 @@ export default {
                     name: "Blog",
                     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, null Maiores et perferendis eaque, exercitationem praesentium nihil.",
                     thumbnail: "blog.png",
-                    technos: ["VueJs", "AdonisJs", "NodeJs", "PostgreSQL", "Tailwindcss"],
+                    technos: ["VueJs", "NodeJs/AdonisJs", "PostgreSQL", "Tailwindcss"],
                     githubLink: "https://github.com/nsWilfried/Axole-Template",
                     liveView: ""
                 },
@@ -81,7 +78,7 @@ export default {
                     name: "Jwt Authentication",
                     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, null Maiores et perferendis eaque, exercitationem praesentium nihil.",
                     thumbnail: "jwt-auth-app.png",
-                    technos: ["Angular", "Material", "JWToken", "Mongodb"],
+                    technos: ["Angular", "Material", "NodeJs/Express",  "JWToken", "Mongodb"],
                     githubLink: "https://github.com/nsWilfried/Angular-jwt-auth",
                     liveView: "https://ns-jwt-angular-auth.netlify.app"
                 },
@@ -113,18 +110,18 @@ export default {
         }
     }, 
     methods: {
-        beforeEnter(el){
-            el.style.opacity = 0
-            el.style.transform = 'translateY(60px)'
-        }, 
-        enter(el){
-            gsap.to(el, {
-                opacity: 1, 
-                y:0, 
-                duration: 1 , 
-                delay: el.dataset.index *0.2
-            })
-        }
+        // beforeEnter(el){
+        //     el.style.opacity = 0
+        //     el.style.transform = 'translateY(60px)'
+        // }, 
+        // enter(el){
+        //     gsap.to(el, {
+        //         opacity: 1, 
+        //         y:0, 
+        //         duration: 1 , 
+        //         delay: el.dataset.index *0.2
+        //     })
+        // }
     }
 }
 </script>
@@ -158,16 +155,7 @@ export default {
     }
 }
 
-.transition__translate {
-    transform: translate(0px);
-    transition: all 0.3s;
 
-    &:hover {
-        cursor: pointer;
-        transform: translateY(-5px);
-        transition: all 0.3s;
-    }
-}
 
 .transition__icon {
     transform: translate(0px);

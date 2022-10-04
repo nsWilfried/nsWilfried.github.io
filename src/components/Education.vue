@@ -4,7 +4,7 @@
         <div class="education">
             <!-- experience title -->
             <div class="h-auto w-full bg-green-">
-                <h1 class="section__title primary-font font-bold" >04.<span class="text-white"
+                <h1 class="section__title  education__title primary-font font-bold" >04.<span class="text-white"
                         style=" color: #2C3E50;"> Education</span> </h1>
             </div>
 
@@ -12,7 +12,7 @@
             <section class="text-gray-600 body-font overflow-hidden">
                 <div class="container px-5 lg:py-24 mx-auto">
                     <div class="-my-8 divide-y-2 divide-gray-100">
-                        <div class="py-8 flex flex-wrap md:flex-nowrap">
+                        <div class="school py-8 flex flex-wrap md:flex-nowrap">
                             <div class="md:w-64 md:mb-0 mb-6 education__filiere flex-shrink-0 flex flex-col flex-wrap">
                                 <span class="font-medium   text-gray-700 ">Licence - Sciences Informatiques et
                                     Technologiques</span>

@@ -7,21 +7,18 @@
             <div class="navbar__content  bg--200  bg--200 mx-auto">
 
                 <!-- navbar logo -->
-                <routerLink to="/" class="flex items-center bg--200 navbar__logo">
-                    <span style="color: #2C3E50;" class="text- text-5xl font-bold special-font"> <span
-                            class=" text-red-400 underline">Wil</span>fried</span>
-                </routerLink>
+                <Logo/>
 
                 <!-- navbar links -->
                 <div class="bg--300 h-full  navbar__links lg:flex justify-end items-center w-full  md:w-auto bg--200">
-                    <transition-group appear @before-enter="beforeEnter" @enter="enter" tag="ul"
+                    <ul
                         class="flex flex-col  mt-4  rounded-lg  md:flex-row md:space-x-10 md:mt-0 md:text-sm md:font-medium md:border-0">
                         <li :data-index="index" v-for="(item, index) in navLinks" :key="index">
                             <a :href="item.link" class=" text-gray- secondary-font "
                                 style="font-size: 16px;color:#2C3E50; "><span
                                     class="text-red-400">0{{index+1}}</span>.{{item.name}}</a>
                         </li>
-                    </transition-group>
+                    </ul>
                 </div>
 
 
@@ -47,9 +44,9 @@
 
 
                 <!-- burger menu  -->
-                <Slide>
-                    <a id="home" href="#">
-                        <span>Home</span>
+                <Slide right>
+                    <a v-for="(link, index) in navLinks" :key="index" class="font-medium"  :href="link.link">
+                        <span > <span class="text-red-400 ">0{{index+1}}.</span> {{link.name}}</span>
                     </a>
                 </Slide>
             </div>
@@ -61,8 +58,9 @@
 import Button from "./Button.vue"
 import { Slide } from 'vue3-burger-menu'
 import gsap from "gsap"
+import Logo from "./Logo.vue"
 export default {
-    components: { Button, Slide },
+    components: { Button, Slide, Logo },
     data() {
         return {
             navLinks: [
@@ -95,26 +93,22 @@ export default {
         }
     },
     methods: {
-        beforeEnter(el) {
-            el.style.opacity = 0
-            el.style.transform = 'translateY(-60px)'
-        },
-        enter(el) {
-            // console.log("je suis l'élement et je viens d'entrer en scène", el)
-            gsap.to(el, {
-                opacity: 1,
-                y: 0,
-                duration: 1,
-                delay: el.dataset.index * 0.13
-            })
-        }
+        
+    }, 
+    mounted(){
+        // const timeline = new gsap.timeline()
+        
     }
 
 }
 </script>
 <style lang="scss" >
 @import "../assets/scss/mixins/titlebar";
-
+.bm-menu{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
 .navbar {
     z-index: 123;
 

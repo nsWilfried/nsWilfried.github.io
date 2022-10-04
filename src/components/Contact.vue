@@ -5,16 +5,16 @@
         <section class="text-gray-600 body-font relative">
             <div class="container px-5 py-24 mx-auto">
                 <div class="flex flex-col text-center w-full mb-12">
-                    <h1 class="sm:text-3xl text-2xl capitalize font-bold primary-font title-font mb-4 text-gray-900">
+                    <h1 class="contact__title sm:text-3xl text-2xl capitalize font-bold primary-font title-font mb-4 text-gray-900">
                         <span class="text-3xl text-red-400 pb-3 ">06.</span>
                         Me contacter
                     </h1>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base secondary-font">
+                    <p class="contact__description lg:w-2/3 mx-auto leading-relaxed text-base secondary-font">
                         Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
                         gentrify.
                     </p>
                 </div>
-                <div class="lg:w-1/2 md:w-2/3 mx-auto">
+                <div class="contact__content lg:w-1/2 md:w-2/3 mx-auto">
                     <div class="flex flex-wrap -m-2">
                         <div class="p-2 w-1/2">
                             <div class="relative">
