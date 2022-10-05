@@ -2,8 +2,8 @@
     <!-- // header -->
     <div :class="{'dark': dark==true, 'light': dark==false}" class=" w-full h-auto">
         <!-- particles js  -->
-        <!-- <Particles id="tsparticles" :particlesInit="particlesInit" :particlesLoaded="particlesLoaded"
-                    url="../public/random.json" /> -->
+        <Particles id="tsparticles" :particlesInit="particlesInit" :particlesLoaded="particlesLoaded"
+                    url="../public/random.json" />
 
         <!-- navbar -->
         <Navbar />
@@ -98,7 +98,7 @@ const particlesInit = async (engine) => {
 }
 
 const particlesLoaded = async (container) => {
-    console.log("les particules sont lancées")
+    // console.log("les particules sont lancées")
 }
 export default {
     components: { Button, Navbar },

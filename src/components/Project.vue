@@ -60,7 +60,7 @@ export default {
             projects: [
                 {
                     name: "Ecommmerce Website",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, null Maiores et perferendis eaque, exercitationem praesentium nihil.",
+                    description: "Il s'agit d'un Application Web Ecommerce pour Fast Food.",
                     thumbnail: "woocommerce.jpg",
                     technos: ["Angular","Material",  "Firebase", "WooApi", "NodeJs"],
                     githubLink: "https://github.com/nsWilfried/Authority-Ecommerce",
@@ -68,7 +68,7 @@ export default {
                 },
                 {
                     name: "Blog",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, null Maiores et perferendis eaque, exercitationem praesentium nihil.",
+                    description: "Il s'agit d'une Application Web  de blogging developpé à base d'un template Colorlib.",
                     thumbnail: "blog.png",
                     technos: ["VueJs", "NodeJs/AdonisJs", "PostgreSQL", "Tailwindcss"],
                     githubLink: "https://github.com/nsWilfried/Axole-Template",
@@ -76,7 +76,7 @@ export default {
                 },
                 {
                     name: "Jwt Authentication",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, null Maiores et perferendis eaque, exercitationem praesentium nihil.",
+                    description: "Il s'agit d'un système d'authentification par jeton avec Angular et JsonWebToken.",
                     thumbnail: "jwt-auth-app.png",
                     technos: ["Angular", "Material", "NodeJs/Express",  "JWToken", "Mongodb"],
                     githubLink: "https://github.com/nsWilfried/Angular-jwt-auth",
@@ -84,7 +84,7 @@ export default {
                 },
                 {
                     name: "Api + Documentation",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, null Maiores et perferendis eaque, exercitationem praesentium nihil.",
+                    description: "Il s'agit d'une api de blogging réalisé avec Nodejs/Adonijs. Une documentation claire est bien sûr fourni avec l'api et a été fait avec Swagger🥳.",
                     thumbnail: "ns-blog-api.png",
                     githubLink: "https://github.com/nsWilfried/Axole-Template",
                     technos: ["NodeJs/Adonisjs", "Swagger", "PostgreSQL"],
@@ -92,7 +92,7 @@ export default {
                 },
                 {
                     name: "Google Keep Clone",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, null Maiores et perferendis eaque, exercitationem praesentium nihil.",
+                    description: "Il s'agit d'un clone de google keep.",
                     thumbnail: "google_keep_clone.png",
                     technos: ["VueJs", "Supabase", "Sass"],
                     githubLink: "https://github.com/nsWilfried/Google-Keep-Clone",
@@ -100,7 +100,7 @@ export default {
                 },
                 {
                     name: "Mon Portfolio",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, null Maiores et perferendis eaque, exercitationem praesentium nihil.",
+                    description: "Il s'agit de mon portfolio personnel.",
                     thumbnail: "portfolio.png",
                     technos: ["VueJS", "PocketBase", "Tailwindcss"],
                     githubLink: "https://github.com/nsWilfried/Wilfried-Portfolio",
