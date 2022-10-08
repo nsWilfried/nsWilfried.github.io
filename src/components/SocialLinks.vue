@@ -6,10 +6,10 @@
                 <font-awesome-icon icon="fab fa-github" />
             </a>
 
-            <a href="https://www.linkedin.com/in/wilfried-n-soukpoe-2b41a8245/" target="_blank" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
+            <!-- <a href="https://www.linkedin.com/in/wilfried-n-soukpoe-2b41a8245/" target="_blank" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn"> -->
                 <!-- <i class="fab fa-linkedin-in"></i> -->
-                <font-awesome-icon icon="fab fa-linkedin-in" />
-            </a>
+                <!-- <font-awesome-icon icon="fab fa-linkedin-in" /> -->
+            <!-- </a> -->
             <!-- <a href="#" class="social-buttons__button social-button social-button--snapchat" aria-label="SnapChat">
                 <i class="fab fa-snapchat-ghost"></i>
             </a> -->

@@ -26,10 +26,10 @@
                                     <a :href="project.githubLink" target="_blank">
                                         <font-awesome-icon icon="fa-brands fa-github" class="transition__icon" />
                                     </a>
-                                    <span>
+                                    <a :href="project.link">
                                         <font-awesome-icon class="transition__icon ml-4"
                                             icon="fa-solid fa-arrow-up-right-from-square" />
-                                    </span>
+                                    </a>
                                 </div>
                             </div>
                             <p class="text-gray-700 text-base secondary-font ">
@@ -72,7 +72,7 @@ export default {
                     thumbnail: "blog.png",
                     technos: ["VueJs", "NodeJs/AdonisJs", "PostgreSQL", "Tailwindcss"],
                     githubLink: "https://github.com/nsWilfried/Axole-Template",
-                    liveView: ""
+                    liveView: "https://nsblog.netlify.app"
                 },
                 {
                     name: "Jwt Authentication",
@@ -92,7 +92,7 @@ export default {
                 },
                 {
                     name: "Google Keep Clone",
-                    description: "Il s'agit d'un clone de google keep.",
+                    description: "Il s'agit du clone de google keep.",
                     thumbnail: "google_keep_clone.png",
                     technos: ["VueJs", "Supabase", "Sass"],
                     githubLink: "https://github.com/nsWilfried/Google-Keep-Clone",

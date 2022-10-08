@@ -19,13 +19,11 @@
                                 <span class="mt-1 text-gray-500 text-sm secondary-font pt-3">Novembre 2021</span>
                             </div>
                             <div class="md:flex-grow">
-                                <a href="https://ucao.org"
+                                <a href="https://ucao-uut.tg/"
                                     class="text-2xl font-medium underline title-font mb-2 text-red-400 ">@Université
                                     Catholique de l'Afrique de l'Ouest</a>
-                                <p class="leading-relaxed secondary-font pt-5">Glossier echo park pug, church-key sartorial biodiesel
-                                    vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag
-                                    selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland
-                                    craft beer.</p>
+                                <p class="leading-relaxed secondary-font pt-5">Délégué de ma promotion  à l'université,
+                                     j'ai notamment développé un grand esprit de communication ,  de travail d'équipe et de résolutions de problèmes d'une part techniques et d'autre part sociaux.  </p>
                             </div>
                         </div>
 

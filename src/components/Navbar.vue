@@ -7,7 +7,7 @@
             <div class="navbar__content  bg--200  bg--200 mx-auto">
 
                 <!-- navbar logo -->
-                <Logo/>
+                <Logo />
 
                 <!-- navbar links -->
                 <div class="bg--300 h-full  navbar__links lg:flex justify-end items-center w-full  md:w-auto bg--200">
@@ -23,9 +23,9 @@
 
 
                 <!-- download resume -->
-               
+
                 <div class="navbar__resume  bg--300">
-                    <Button :blank="true" text="Mon CV" class="uppercase"   link="/public/Wilfried_N'SOUKPOE.pdf" />
+                    <Button :blank="true" text="Mon CV" class="uppercase" link="/public/Wilfried_N'SOUKPOE.pdf" />
                 </div>
             </div>
         </nav>
@@ -45,12 +45,13 @@
 
                 <!-- burger menu  -->
                 <Slide right>
-                    <a v-for="(link, index) in navLinks" :key="index" class="font-medium"  :href="link.link">
-                        <span > <span class="text-red-400 ">0{{index+1}}.</span> {{link.name}}</span>
+                    <a v-for="(link, index) in navLinks" :key="index" class="font-medium" :href="link.link">
+                        <span> <span class="text-red-400 ">0{{index+1}}.</span> {{link.name}}</span>
                     </a>
                     <div class="navbar__resume  bg--300">
-                    <Button text="Mon CV" blank="true" class="uppercase border-white"  link="/public/Wilfried_N'SOUKPOE.pdf" />
-                </div>
+                        <Button text="Mon CV" :blank="true" class="uppercase border-white"
+                            link="/public/Wilfried_N'SOUKPOE.pdf" />
+                    </div>
                 </Slide>
             </div>
         </nav>
@@ -96,22 +97,24 @@ export default {
         }
     },
     methods: {
-        
-    }, 
-    mounted(){
+
+    },
+    mounted() {
         // const timeline = new gsap.timeline()
-        
+
     }
 
 }
 </script>
 <style lang="scss" >
 @import "../assets/scss/mixins/titlebar";
-.bm-menu{
-    display: flex ;
+
+.bm-menu {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .navbar {
     z-index: 123;
 
@@ -133,6 +136,7 @@ export default {
         display: none;
     }
 }
+
 .bm-burger-button {
     position: relative;
     width: 36px;
@@ -142,13 +146,15 @@ export default {
     top: 10px;
     cursor: pointer;
 }
+
 @media only screen and (min-width: 320px) and (max-width: 1000px) {
     .navbar__mobile {
         display: flex;
-        > div{
+
+        >div {
             // width: 90%;
             display: grid;
-            grid-template-columns: 1fr 1fr ;
+            grid-template-columns: 1fr 1fr;
             // background-color: blue;
         }
     }

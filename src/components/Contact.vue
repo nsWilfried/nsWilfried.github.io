@@ -10,8 +10,7 @@
                         Me contacter
                     </h1>
                     <p class="contact__description lg:w-2/3 mx-auto leading-relaxed text-base secondary-font">
-                        Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-                        gentrify.
+                        Envoyer moi un message dès maintenant
                     </p>
                 </div>
                 <div class="contact__content lg:w-1/2 md:w-2/3 mx-auto">
