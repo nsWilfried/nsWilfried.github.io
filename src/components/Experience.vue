@@ -4,7 +4,7 @@
         <div class="experience h-full flex flex-col  justify-center">
             <!-- experience title -->
             <div class="h-auto w-full bg-green-">
-                <h1 class="section__title experience__title primary-font font-bold" >03.<span
+                <h1 class="section__title experience__title primary-font font-bold" >02.<span
                         class="text-white" style=" color: #2C3E50;"> Expérience</span> </h1>
             </div>
 
@@ -47,7 +47,7 @@ export default {
             {
                 job: "Freelance Front-End Développeur", 
                 position: "@Designer Portoflio", 
-                achivements: ["Réalisation et Maintenance avec Vuejs du portfolio d'un designer freelance."], 
+                achivements: ["Réalisation et Maintenance avec Vuejs du portfolio d'un designer freelance.", "Mise en place du Back Office de gestion de contenu grâce à Sanity"], 
                 date: "Août 2022", 
                 link: "https://jobedesigner.com/"
             }, 
@@ -55,7 +55,7 @@ export default {
                 job: "Freelance Full Stack Développeur", 
                 position: "@Collège Père Planque", 
                 achivements: ["Conception, Gestion et Refonte du site internet du collège à base du HTML,CSS,JS et du framework Vue", "Mise en place du CMS Moodle afin de promouvoir les cours en ligne dans le collège. Celà a été utile notamment pendant la crise du Covid 19.", "Optimisation du SEO", "Maintenance du site"], 
-                date: "Avril 2020", 
+                date: "Octobre 2019 - Août 2021", 
                 link: "https://collegepereplanque.netlify.app"
             }, 
         ]

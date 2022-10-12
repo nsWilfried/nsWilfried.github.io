@@ -3,7 +3,7 @@
         <div class="projects h-full flex flex-col  justify-center">
             <!-- experience title -->
             <div class="h-auto w-full bg-green-">
-                <h1 class="section__title projects__title primary-font font-bold">05.<span class="text-white"
+                <h1 class="section__title projects__title primary-font font-bold">04.<span class="text-white"
                         style=" color: #2C3E50;">Mes Projets</span></h1>
             </div>
 

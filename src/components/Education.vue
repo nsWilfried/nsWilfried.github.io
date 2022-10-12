@@ -4,7 +4,7 @@
         <div class="education">
             <!-- experience title -->
             <div class="h-auto w-full bg-green-">
-                <h1 class="section__title  education__title primary-font font-bold" >04.<span class="text-white"
+                <h1 class="section__title  education__title primary-font font-bold" >03.<span class="text-white"
                         style=" color: #2C3E50;"> Education</span> </h1>
             </div>
 
