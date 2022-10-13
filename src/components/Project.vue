@@ -26,7 +26,7 @@
                                     <a :href="project.githubLink" target="_blank">
                                         <font-awesome-icon icon="fa-brands fa-github" class="transition__icon" />
                                     </a>
-                                    <a :href="project.link">
+                                    <a :href="project.liveView" target="_blank">
                                         <font-awesome-icon class="transition__icon ml-4"
                                             icon="fa-solid fa-arrow-up-right-from-square" />
                                     </a>
@@ -64,7 +64,7 @@ export default {
                     thumbnail: "woocommerce.jpg",
                     technos: ["Angular","Material",  "Firebase", "WooApi", "NodeJs"],
                     githubLink: "https://github.com/nsWilfried/Authority-Ecommerce",
-                    liveView: ""
+                    liveView: "https://ns-food-ecommerce.netlify.app"
                 },
                 {
                     name: "Blog",
@@ -104,7 +104,7 @@ export default {
                     thumbnail: "portfolio.png",
                     technos: ["VueJS", "PocketBase", "Tailwindcss"],
                     githubLink: "https://github.com/nsWilfried/Wilfried-Portfolio",
-                    liveView: ""
+                    liveView: "/"
                 },
             ]
         }
