@@ -87,7 +87,7 @@ export default {
                     thumbnail: "ns-blog-api.png",
                     githubLink: "https://github.com/nsWilfried/Axole-Template",
                     technos: ["NodeJs/Adonisjs", "Swagger", "PostgreSQL", "Sqlite"],
-                    liveView: "https://ns-blog-api.netlify.app"
+                    liveView: "https://ns-blog-api.herokuapp.com/docs"
                 },
                 {
                     name: "Google Keep Clone",
