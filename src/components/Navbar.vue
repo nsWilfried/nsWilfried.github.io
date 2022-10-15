@@ -138,12 +138,12 @@ export default {
 }
 
 .bm-burger-button {
-    position: relative;
-    width: 36px;
-    height: 30px;
-    left: 80%;
+    position: relative !important;
+    width: 36px !important;
+    height: 30px !important;
+    left: 80% !important;
     //   right: 40px;
-    top: 10px;
+    top: 10px !important;
     cursor: pointer;
 }
 
