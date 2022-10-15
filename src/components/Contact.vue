@@ -54,7 +54,9 @@
                         </div>
                         <div class="contact__button pt-6 bg--400 w-full flex justify-center">
                             <!-- boutton d'envoi de l'email -->
-                            <Button text="Envoyer" :blank="false" class="uppercase" @click="sendMeEmail()" />
+                            <div v-if="loading==false"><Button text="Envoyer" :blank="false" class="uppercase" @click="sendMeEmail()" /></div>
+                            <div v-else><Button text="Loading ..." :blank="false" class="uppercase" @click="sendMeEmail()" /></div>
+
                         </div>
                         <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                             <a href="mailto:wacnsoukpoe@gmail.com" class="text-red-400">wacnsoukpoe@email.com</a>
@@ -97,6 +99,7 @@ export default {
                 subject: "",
                 message: "",
             },
+            loading: false, 
             errors: {
                 name: "",
                 email: "",
@@ -119,6 +122,7 @@ export default {
                 });
         },
         sendMeEmail() {
+            this.loading = true
             this.contactSchema
                 .validate(this.values, { abortEarly: false })
                 .then((res) => {
@@ -141,7 +145,10 @@ export default {
                         }
                     }).then(res => {
                         // console.log("tout marche bien")
-                        this.$swal( "Succès", "Message envoyé", "success",).then(() => this.values = {})
+                        this.$swal( "Succès", "Message envoyé", "success",).then(() => {
+                            this.loading = false
+                            this.values = {}
+                        })
                     }, err => {
                         // console.log("bon il y'a une erreur", err)
                         this.$swal("Erreur", "Erreur lors de l'envoi du message", "error")

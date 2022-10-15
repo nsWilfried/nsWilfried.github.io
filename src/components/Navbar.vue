@@ -50,7 +50,7 @@
                     </a>
                     <div class="navbar__resume  bg--300">
                         <Button text="Mon CV" :blank="true" class="uppercase border-white"
-                            link="/public/Wilfried_N'SOUKPOE.pdf" />
+                            link="/Wilfried_N'soukpoe_FullStack_Dev" />
                     </div>
                 </Slide>
             </div>
