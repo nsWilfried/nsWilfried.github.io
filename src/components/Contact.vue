@@ -124,24 +124,24 @@ export default {
                 .then((res) => {
                     this.errors = {};
 
-                    this.axios.post(`${import.meta.env.VITE_MAILTRAP_API_URL}/api/send`, {
-                        from: {
+                    this.axios.post(`${import.meta.env.VITE_BACK_MAIL}/contact`, {
+                        // from: {
                             email: this.values.email,
-                            name: this.values.name
-                        },
-                        to: {
-                            email: "wacnsoukpoe@gmail.com", 
-                            name: "Wilfried N'SOUKPOE"
-                        }, 
+                            fullname: this.values.name, 
+                        // },
+                        // to: {
+                        //     email: "wacnsoukpoe@gmail.com", 
+                        //     name: "Wilfried N'SOUKPOE"
+                        // }, 
                         subject: this.values.subject, 
-                        text: this.values.message
+                        message: this.values.message
                     }, {
                         headers: {
                             "authorization": "Bearer " + import.meta.env.VITE_MAILTRAP_KEY
                         }
                     }).then(res => {
                         // console.log("tout marche bien")
-                        this.$swal( "Succès", "Message envoyé", "success",)
+                        this.$swal( "Succès", "Message envoyé", "success",).then(() => this.values = {})
                     }, err => {
                         // console.log("bon il y'a une erreur", err)
                         this.$swal("Erreur", "Erreur lors de l'envoi du message", "error")

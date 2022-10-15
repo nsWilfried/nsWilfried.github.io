@@ -8,14 +8,14 @@
             </div>
 
             <!-- content -->
-            <section 
+            <section
                 class="text-gray-600 bg--300w-full projects__content h-auto flex-wrap  flex bg--800 justify-around gap-16">
 
-                    <div class="project " v-for="(project, index) in projects" :data-index="index" :key="index">
+                <div class="project " v-for="(project, index) in projects" :data-index="index" :key="index">
                     <div class="max-w-sm rounded border-t-4 border-t-red-400  overflow-hidden shadow-sm">
                         <img class="w-full project__image" :src="'/src/assets/imgs/'+project.thumbnail"
                             :alt="project.name">
-                        <div  class="px-6 py-4">
+                        <div class="px-6 py-4">
                             <div class="font-bold text-xl mb-2 flex justify-between">
                                 <div>
                                     <font-awesome-icon icon="fa-solid fa-play " class="text-sm text-red-400 pr-2" />
@@ -37,16 +37,15 @@
                             </p>
                         </div>
                         <div class="px-6 py-4">
-                            <span 
-                                v-for="(techno, index) in project.technos" :key="index"
+                            <span v-for="(techno, index) in project.technos" :key="index"
                                 class="secondary-font inline-block bg-gray-200 rounded-full px-3 py-1 my-1 text-sm  text-gray-700 mr-2">
                                 #{{techno}}
                             </span>
 
                         </div>
                     </div>
-            </div>
-              
+                </div>
+
 
 
             </section>
@@ -62,7 +61,7 @@ export default {
                     name: "Ecommmerce Website",
                     description: "Il s'agit d'un Application Web Ecommerce pour Fast Food.",
                     thumbnail: "woocommerce.jpg",
-                    technos: ["Angular","Material",  "Firebase", "WooApi", "NodeJs"],
+                    technos: ["Angular", "Angular Material", "Firebase", "WoocommerceApi", "NodeJs/Express"],
                     githubLink: "https://github.com/nsWilfried/Authority-Ecommerce",
                     liveView: "https://ns-food-ecommerce.netlify.app"
                 },
@@ -78,7 +77,7 @@ export default {
                     name: "Jwt Authentication",
                     description: "Il s'agit d'un système d'authentification par jeton avec Angular et JsonWebToken.",
                     thumbnail: "jwt-auth-app.png",
-                    technos: ["Angular", "Material", "NodeJs/Express",  "JWToken", "Mongodb"],
+                    technos: ["Angular", "Angular Material", "NodeJs/Express", "JWToken", "Mongodb"],
                     githubLink: "https://github.com/nsWilfried/Angular-jwt-auth",
                     liveView: "https://ns-jwt-angular-auth.netlify.app"
                 },
@@ -87,14 +86,14 @@ export default {
                     description: "Il s'agit d'une api de blogging réalisé avec Nodejs/Adonijs. Une documentation claire est bien sûr fourni avec l'api et a été fait avec Swagger🥳.",
                     thumbnail: "ns-blog-api.png",
                     githubLink: "https://github.com/nsWilfried/Axole-Template",
-                    technos: ["NodeJs/Adonisjs", "Swagger", "PostgreSQL"],
+                    technos: ["NodeJs/Adonisjs", "Swagger", "PostgreSQL", "Sqlite"],
                     liveView: "https://ns-blog-api.netlify.app"
                 },
                 {
                     name: "Google Keep Clone",
                     description: "Il s'agit du clone de google keep.",
                     thumbnail: "google_keep_clone.png",
-                    technos: ["VueJs", "Supabase", "Sass"],
+                    technos: ["VueJs", "Supabase", "Tailwindcss"],
                     githubLink: "https://github.com/nsWilfried/Google-Keep-Clone",
                     liveView: "https://ns-google-keep.netlify.app"
                 },
@@ -108,21 +107,8 @@ export default {
                 },
             ]
         }
-    }, 
-    methods: {
-        // beforeEnter(el){
-        //     el.style.opacity = 0
-        //     el.style.transform = 'translateY(60px)'
-        // }, 
-        // enter(el){
-        //     gsap.to(el, {
-        //         opacity: 1, 
-        //         y:0, 
-        //         duration: 1 , 
-        //         delay: el.dataset.index *0.2
-        //     })
-        // }
-    }
+    },
+
 }
 </script>
 <style lang="scss">
@@ -139,8 +125,9 @@ export default {
 
     // background-color: white;
     z-index: 2;
+
     &__content {
-        margin-top:130px
+        margin-top: 130px
     }
 }
 
@@ -170,14 +157,15 @@ export default {
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1000px){
- .projects {
-    padding-top: $vertical-space-mobile;
-    margin-bottom: 0px;
-    &__content {
-    margin-top: 30px;
+@media only screen and (min-width: 320px) and (max-width: 1000px) {
+    .projects {
+        padding-top: $vertical-space-mobile;
+        margin-bottom: 0px;
 
+        &__content {
+            margin-top: 30px;
+
+        }
     }
- }
 }
 </style>

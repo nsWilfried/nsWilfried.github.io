@@ -178,7 +178,7 @@ export default {
             ], 
             frontEndFrameworks: [
                 {
-                    src:"https://cdn.icon-icons.com/icons2/2107/PNG/48/file_type_angular_icon_130754.png", 
+                    src:"https://cdn.iconscout.com/icon/free/png-48/angular-2038881-1720094.png", 
                     name: "Angular"
                 }, 
                 {
@@ -224,7 +224,7 @@ export default {
                     name: "Adonisjs"
                 }, 
                 {
-                    src: 'https://cdn.icon-icons.com/icons2/2415/PNG/48/express_original_logo_icon_146527.png', 
+                    src: 'https://cdn.iconscout.com/icon/free/png-48/express-8-1175029.png', 
                     name: "ExpressJS"
                 }, 
                 {
@@ -244,7 +244,7 @@ export default {
                     name: "Postgresql",
                 }, 
                 {
-                    src:"https://cdn.icon-icons.com/icons2/2107/PNG/48/file_type_sqlite_icon_130153.png", 
+                    src:"https://cdn.iconscout.com/icon/free/png-48/sqlite-282687.png", 
                     name: "SQLite",
                 }, 
                 {
@@ -296,7 +296,7 @@ export default {
                     name: "C",
                 }, 
                 {
-                    src: "https://cdn.icon-icons.com/icons2/836/PNG/48/Wordpress_icon-icons.com_66780.png", 
+                    src: "https://cdn.iconscout.com/icon/free/png-48/wordpress-1-226061.png", 
                     name: "Wordpress"
                 }
             ]
