@@ -36,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex justify-center lg:p-7 bg--300 items-center">
+            <div class="flex justify-center lg:p-7 bg--300 skills items-center">
                 <Skills />
             </div>
         </div>
@@ -65,10 +65,14 @@ export default {
     margin-left: 165px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1000px) {
+@media only screen and (min-width: 150px) and (max-width: 1080px) {
     .about {
         width: $secondary-width;
         // background-color:blue;
+    }
+
+    .skills {
+        overflow: hidden ;
     }
 
     #about {

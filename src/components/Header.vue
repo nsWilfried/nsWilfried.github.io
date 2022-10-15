@@ -125,7 +125,7 @@ export default {
     /* background-color: ; */
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1000px) {
+@media only screen and (min-width: 150px) and (max-width: 1000px) {
     .header__title {
         font-size: 3em;
     }

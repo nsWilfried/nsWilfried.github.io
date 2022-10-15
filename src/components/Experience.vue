@@ -79,7 +79,7 @@ export default {
         margin-left: 260px;
     }
 }
-@media only screen and (min-width: 320px) and (max-width: 1000px){
+@media only screen and (min-width: 150px) and (max-width: 1000px){
  .experience {
     padding-top: $vertical-space-mobile;
  }

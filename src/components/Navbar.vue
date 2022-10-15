@@ -138,16 +138,16 @@ export default {
 }
 
 .bm-burger-button {
-    position: relative;
-    width: 36px;
-    height: 30px;
-    left: 80%;
-    //   right: 40px;
-    top: 10px;
-    cursor: pointer;
+    // position: relative;
+    // width: 36px;
+    // height: 30px;
+    // left: 80%;
+    // //   right: 40px;
+    // top: 10px;
+    // cursor: pointer;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1000px) {
+@media only screen and (min-width: 150px) and (max-width: 1080px) {
     .navbar__mobile {
         display: flex;
 

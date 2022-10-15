@@ -13,7 +13,7 @@
 
                 <div class="project " v-for="(project, index) in projects" :data-index="index" :key="index">
                     <div class="max-w-sm rounded border-t-4 border-t-red-400  overflow-hidden shadow-sm">
-                        <img class="w-full project__image" :src="'/src/assets/imgs/'+project.thumbnail"
+                        <img class="w-full project__image" :src="'./imgs/'+project.thumbnail"
                             :alt="project.name">
                         <div class="px-6 py-4">
                             <div class="font-bold text-xl mb-2 flex justify-between">
@@ -157,7 +157,7 @@ export default {
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1000px) {
+@media only screen and (min-width: 150px) and (max-width: 1000px) {
     .projects {
         padding-top: $vertical-space-mobile;
         margin-bottom: 0px;

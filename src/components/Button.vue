@@ -63,4 +63,15 @@ export default {
 .fill:hover{
     border-color: $primary-color;
 }
+
+@media only screen and (min-width: 150px) and (max-width: 400px) {
+  .fill {
+    padding: 15px; 
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 1400px) {
+  .fill {
+    padding: 15px; 
+  }
+}
 </style>
