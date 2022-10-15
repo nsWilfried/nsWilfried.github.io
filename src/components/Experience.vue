@@ -49,14 +49,14 @@ export default {
                 position: "@Designer Portoflio", 
                 achivements: ["Réalisation et Maintenance avec Vuejs du portfolio d'un designer freelance.", "Mise en place du Back Office de gestion de contenu grâce à Sanity"], 
                 date: "Août 2022", 
-                link: "https://jobedesigner.com/"
+                link: ""
             }, 
             {
                 job: "Freelance Full Stack Développeur", 
                 position: "@Collège Père Planque", 
                 achivements: ["Conception, Gestion et Refonte du site internet du collège à base du HTML,CSS,JS et du framework Vue", "Mise en place du CMS Moodle afin de promouvoir les cours en ligne dans le collège. Celà a été utile notamment pendant la crise du Covid 19.", "Optimisation du SEO", "Maintenance du site"], 
                 date: "Octobre 2019 - Août 2021", 
-                link: "https://collegepereplanque.netlify.app"
+                link: ""
             }, 
         ]
     }

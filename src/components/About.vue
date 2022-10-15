@@ -15,7 +15,7 @@
                         style="padding-top: 20px;padding-bottom:20px;color: #5D6D7E;  ">
                         Bonjour! Je suis <span class="font-bold">Wilfried</span> , <span class="font-bold">Développeur
                             web Full Stack</span> et j'adore construire des applications web
-                        complexes et uniques.Ma passion pour le développement web a commencé en 2017 lorsque j'ai
+                        complexe et unique.Ma passion pour le développement web a commencé en 2017 lorsque j'ai
                         commencé à apprendre le HTML/CSS et réalisé mon tout premier projet professionnel ( Un site
                         vitrine pour mon lycée).
                     </p>
