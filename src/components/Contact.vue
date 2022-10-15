@@ -59,7 +59,7 @@
                         <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                             <a href="mailto:wacnsoukpoe@gmail.com" class="text-red-400">wacnsoukpoe@email.com</a>
                             <p class="leading-normal my-5">
-                                Quebec, Canada
+                                Lomé, Togo
                             </p>
 
                             <p class="leading-normal my-9">

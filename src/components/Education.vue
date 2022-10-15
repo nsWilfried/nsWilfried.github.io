@@ -16,7 +16,7 @@
                             <div class="md:w-64 md:mb-0 mb-6 education__filiere flex-shrink-0 flex flex-col flex-wrap">
                                 <span class="font-medium   text-gray-700 ">Licence - Sciences Informatiques et
                                     Technologiques</span>
-                                <span class="mt-1 text-gray-500 text-sm secondary-font pt-3">Novembre 2021 - En cours</span>
+                                <span class="mt-1 text-gray-500 text-sm secondary-font pt-3">Novembre 2021</span>
                             </div>
                             <div class="md:flex-grow">
                                 <a href="https://ucao-uut.tg/"
