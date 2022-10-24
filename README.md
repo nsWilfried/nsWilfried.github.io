@@ -10,7 +10,7 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://i.ibb.co/Wf67kpq/portfolio.png" alt="project-screenshot" width="400" height="400/">
+
 
   
   
