@@ -6,7 +6,7 @@
 
 <h2>🚀 Demo</h2>
 
-[https://ns-jwt-angular-auth.netlify.app/](https://ns-jwt-angular-auth.netlify.app/)
+[https://nswilfried.netlify.app/](https://nswilfried.netlify.app)
 
 <h2>Project Screenshots:</h2>
 
