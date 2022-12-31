@@ -30,7 +30,7 @@
                                 Wilfried N'SOUKPOE </h1>
                             <h1
                                 class="header__animation mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-7xl">
-                                Full Stack Web Développeur<span class="text-" style="color: #2C3E50;">.( )</span></h1>
+                                Full Stack Web Developer<span class="text-" style="color: #2C3E50;">.( )</span></h1>
                             <!--  <span
                                     class="text-red-400 arrow-function" >=></span> -->
                             <!-- description of myself -->

@@ -61,11 +61,11 @@
                         <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                             <a href="mailto:wacnsoukpoe@gmail.com" class="text-red-400">wacnsoukpoe@email.com</a>
                             <p class="leading-normal my-5">
-                                Lomé, Togo
+                                Québec, Canada
                             </p>
 
                             <p class="leading-normal my-9">
-                                Designed & build by wilfried n'soukpoe
+                                Designed & build by wilfried
                             </p>
                             <span class="inline-flex">
                                 <SocialLinks />
