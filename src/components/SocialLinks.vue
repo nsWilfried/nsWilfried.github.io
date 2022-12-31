@@ -6,7 +6,7 @@
                 <font-awesome-icon icon="fab fa-github" />
             </a>
 
-            <a href="https://www.linkedin.com/in/wilfried-n-soukpoe-2b41a8245/" target="_blank" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn"> -->
+            <a href="https://www.linkedin.com/in/wilfried-n-soukpoe-2b41a8245/" target="_blank" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
                 <font-awesome-icon icon="fab fa-linkedin-in" />
             </a>
             <!-- <a href="#" class="social-buttons__button social-button social-button--snapchat" aria-label="SnapChat">
