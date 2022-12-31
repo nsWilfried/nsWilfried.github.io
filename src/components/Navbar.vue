@@ -25,7 +25,7 @@
                 <!-- download resume -->
 
                 <div class="navbar__resume  bg--300">
-                    <Button :blank="true" text="Mon CV" class="uppercase" link="./Wilfried_N'soukpoe_FullStack_Developer.pdf" />
+                    <Button :blank="true" text="Mon CV" class="uppercase" link="./Wilfried_Web_Developer.pdf" />
                 </div>
             </div>
         </nav>
@@ -50,7 +50,7 @@
                     </a>
                     <div class="navbar__resume  bg--300">
                         <Button text="Mon CV" :blank="true" class="uppercase border-white"
-                            link="./Wilfried_N'soukpoe_FullStack_Developer.pdf" />
+                            link="./Wilfried_Web_Developer.pdf" />
                     </div>
                 </Slide>
             </div>
