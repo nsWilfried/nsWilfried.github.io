@@ -208,6 +208,10 @@ export default {
 
                 }, 
                 {
+                    src: "https://img.icons8.com/fluency/48/null/c-sharp-logo.png", 
+                    name: "C Sharp"
+                }, 
+                {
                     src: "https://img.icons8.com/color/48/000000/python--v1.png", 
                     name: "Python"
 
@@ -226,6 +230,10 @@ export default {
                 {
                     src: 'https://cdn.iconscout.com/icon/free/png-48/express-8-1175029.png', 
                     name: "ExpressJS"
+                }, 
+                {
+                    src: "https://img.icons8.com/external-those-icons-flat-those-icons/48/null/external-Dot-Net-Logo-social-media-those-icons-flat-those-icons.png", 
+                    name: ".Net"
                 }, 
                 {
                     src:"https://miro.medium.com/max/70/1*Q5EUk28Xc3iCDoMSkrd1_w.png", 

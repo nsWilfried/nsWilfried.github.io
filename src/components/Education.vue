@@ -14,16 +14,14 @@
                     <div class="-my-8 divide-y-2 divide-gray-100">
                         <div class="school py-8 flex flex-wrap md:flex-nowrap">
                             <div class="md:w-64 md:mb-0 mb-6 education__filiere flex-shrink-0 flex flex-col flex-wrap">
-                                <span class="font-medium   text-gray-700 ">Licence - Sciences Informatiques et
-                                    Technologiques</span>
-                                <span class="mt-1 text-gray-500 text-sm secondary-font pt-3">Novembre 2021</span>
+                                <span class="font-medium   text-gray-700 ">DEC en Techniques de l'informatique</span>
+                                <span class="mt-1 text-gray-500 text-sm secondary-font pt-3">Janvier 2023</span>
                             </div>
                             <div class="md:flex-grow">
-                                <a href="https://ucao-uut.tg/"
-                                    class="text-2xl font-medium underline title-font mb-2 text-red-400 ">@Université
-                                    Catholique de l'Afrique de l'Ouest</a>
-                                <p class="leading-relaxed secondary-font pt-5">Délégué de ma promotion  à l'université,
-                                     j'ai notamment développé un grand esprit de communication ,  de travail d'équipe et de résolutions de problèmes d'une part techniques et d'autre part sociaux.  </p>
+                                <a href="https://cegepgranby.ca/"
+                                    class="text-2xl font-medium underline title-font mb-2 text-red-400 ">@Cégep de Granby</a>
+                                <!-- <p class="leading-relaxed secondary-font pt-5">Délégué de ma promotion  à l'université,
+                                     j'ai notamment développé un grand esprit de communication ,  de travail d'équipe et de résolutions de problèmes d'une part techniques et d'autre part sociaux.  </p> -->
                             </div>
                         </div>
 
